@@ -1,17 +1,25 @@
-BRIDGE TO BRITAIN — FINAL V3
+BRIDGE TO BRITAIN — GITHUB PRODUCTION
 
-Upload these five files to the ROOT of the v2 branch:
+Upload ALL files from this folder to the ROOT of the v2 branch:
 
 index.html
+contact.html
 style.css
 script.js
 bridge-to-britain-logo.jpg
-big-ben.jpg
+tower-bridge-shard-sunset.jpg
+ethan-erman-bahadir.jpg
+contact-qr.png
+ethan-erman-bahadir.vcf
 
-Contact details included:
-Telephone: +44 7776 251 109
-Email: erman@bridgetobritain.co.uk
-Website: www.bridgetobritain.co.uk
-Location: London, United Kingdom
+The QR code opens:
+https://bridgetobritain.github.io/Bridge-to-Britain/contact.html
 
-No map has been included.
+Contact details:
+Ethan Erman Bahadir
++44 7776 251 109
+erman@bridgetobritain.co.uk
+www.bridgetobritain.co.uk
+LinkedIn: ethan-erman-bahadir-b81787232
+
+No map included.
