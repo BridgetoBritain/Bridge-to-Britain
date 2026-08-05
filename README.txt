@@ -1,6 +1,6 @@
-BRIDGE TO BRITAIN V2 — ONE PAGE WEBSITE
+BRIDGE TO BRITAIN — FINAL V3
 
-Upload these five files to the ROOT of your GitHub repository:
+Upload these five files to the ROOT of the v2 branch:
 
 index.html
 style.css
@@ -8,10 +8,10 @@ script.js
 bridge-to-britain-logo.jpg
 big-ben.jpg
 
-Do not put the images inside another folder.
-
-Contact details currently used:
-Telephone: +44 7771 970 172
+Contact details included:
+Telephone: +44 7776 251 109
+Email: erman@bridgetobritain.co.uk
+Website: www.bridgetobritain.co.uk
 Location: London, United Kingdom
 
-The business email and custom domain are intentionally not active yet.
+No map has been included.
