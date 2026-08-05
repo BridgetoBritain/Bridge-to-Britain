@@ -1,22 +1,20 @@
-BRIDGE TO BRITAIN — GITHUB PRODUCTION V2
+BRIDGE TO BRITAIN — FINAL HERO FIX
 
-This version includes the approved hero layout:
-- Dark navy header
-- Text positioned fully on the left
-- Tower Bridge and The Shard sunset photograph on the right
-- Plain-background portrait of Ethan Erman Bahadir
-- Digital business card and QR code
+This package corrects the hero section completely:
 
-Upload ALL files in this folder to the ROOT of the v2 branch.
+- Clean Tower Bridge and The Shard photograph with NO embedded writing
+- Website headline remains only in the left navy panel
+- Strict 43% text / 57% photograph desktop layout
+- No overlap between the text and photograph
+- Responsive tablet and mobile layout
+- All contact, portrait, QR and digital-business-card files retained
 
-Files:
-index.html
-contact.html
-style.css
-script.js
-bridge-to-britain-logo.jpg
-tower-bridge-shard-sunset.jpg
-ethan-erman-bahadir.jpg
-contact-qr.png
-ethan-erman-bahadir.vcf
-README.txt
+Upload ALL files in this folder to the ROOT of the v2 branch and replace
+the existing files.
+
+Important files updated:
+- style.css
+- tower-bridge-shard-sunset.jpg
+
+Commit message:
+Final hero fix — remove embedded text and prevent overlap
