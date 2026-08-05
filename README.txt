@@ -1,7 +1,15 @@
-BRIDGE TO BRITAIN — GITHUB PRODUCTION
+BRIDGE TO BRITAIN — GITHUB PRODUCTION V2
 
-Upload ALL files from this folder to the ROOT of the v2 branch:
+This version includes the approved hero layout:
+- Dark navy header
+- Text positioned fully on the left
+- Tower Bridge and The Shard sunset photograph on the right
+- Plain-background portrait of Ethan Erman Bahadir
+- Digital business card and QR code
 
+Upload ALL files in this folder to the ROOT of the v2 branch.
+
+Files:
 index.html
 contact.html
 style.css
@@ -11,15 +19,4 @@ tower-bridge-shard-sunset.jpg
 ethan-erman-bahadir.jpg
 contact-qr.png
 ethan-erman-bahadir.vcf
-
-The QR code opens:
-https://bridgetobritain.github.io/Bridge-to-Britain/contact.html
-
-Contact details:
-Ethan Erman Bahadir
-+44 7776 251 109
-erman@bridgetobritain.co.uk
-www.bridgetobritain.co.uk
-LinkedIn: ethan-erman-bahadir-b81787232
-
-No map included.
+README.txt
