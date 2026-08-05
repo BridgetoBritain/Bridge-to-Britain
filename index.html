@@ -3,49 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bridge to Britain supports Turkish businesses, entrepreneurs and investors with UK business expansion, property investment and trusted local representation.">
-  <meta name="theme-color" content="#071f38">
-  <title>Bridge to Britain | UK Business & Property Opportunities</title>
+  <meta name="description" content="Bridge to Britain provides bilingual support for Turkish businesses, entrepreneurs and investors entering, investing and growing in the United Kingdom.">
+  <meta name="keywords" content="UK business expansion, property investment UK, Turkish investors London, local representation UK, refurbishment coordination">
+  <meta name="author" content="Ethan Erman Bahadir">
+  <meta name="theme-color" content="#061b31">
+  <meta property="og:title" content="Bridge to Britain">
+  <meta property="og:description" content="Your trusted UK partner for business expansion, property investment and local representation.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="tower-bridge-shard-sunset.jpg">
+  <meta property="og:url" content="https://bridgetobritain.github.io/Bridge-to-Britain/">
+  <link rel="icon" href="favicon.png">
+  <link rel="canonical" href="https://bridgetobritain.github.io/Bridge-to-Britain/">
+  <title>Bridge to Britain | UK Business & Property Support</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ProfessionalService",
+    "name":"Bridge to Britain",
+    "founder":{"@type":"Person","name":"Ethan Erman Bahadir"},
+    "description":"Bilingual support for Turkish businesses, entrepreneurs and investors entering, investing and growing in the United Kingdom.",
+    "email":"erman@bridgetobritain.co.uk",
+    "telephone":"+44 7776 251 109",
+    "areaServed":"United Kingdom",
+    "address":{"@type":"PostalAddress","addressLocality":"London","addressCountry":"GB"},
+    "sameAs":["https://www.linkedin.com/in/ethan-erman-bahadir-b81787232/"]
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#home" aria-label="Bridge to Britain home">
-        <img src="bridge-to-britain-logo.jpg" alt="Bridge to Britain">
+        <img src="bridge-to-britain-logo.jpg" alt="Bridge to Britain logo">
       </a>
+
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <nav class="main-nav">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#process">How We Work</a>
-        <a href="#why-us">Why Us</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-cta" href="mailto:erman@bridgetobritain.co.uk?subject=Free%20Consultation%20Request">Book a Free Consultation</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about" data-en="About" data-tr="Hakkımızda">About</a>
+        <a href="#services" data-en="Services" data-tr="Hizmetler">Services</a>
+        <a href="#process" data-en="How We Work" data-tr="Nasıl Çalışıyoruz">How We Work</a>
+        <a href="#why-us" data-en="Why Us" data-tr="Neden Biz">Why Us</a>
+        <a href="#contact" data-en="Contact" data-tr="İletişim">Contact</a>
+        <button class="language-toggle" type="button" aria-label="Switch language">TR</button>
+        <a class="nav-cta" href="#booking" data-en="Book a Free Consultation" data-tr="Ücretsiz Görüşme Ayarla">Book a Free Consultation</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section id="home" class="hero">
-      <div class="container hero-split">
+      <div class="hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">London • United Kingdom</p>
-          <h1>Your Trusted Partner for UK Business Expansion and Property Investment</h1>
+          <p class="eyebrow" data-en="London • United Kingdom" data-tr="Londra • Birleşik Krallık">London • United Kingdom</p>
+          <h1 data-en="Your Trusted Partner for UK Business Expansion and Property Investment"
+              data-tr="Birleşik Krallık’ta İş Geliştirme ve Gayrimenkul Yatırımı İçin Güvenilir Ortağınız">
+            Your Trusted Partner for UK Business Expansion and Property Investment
+          </h1>
           <div class="gold-rule"></div>
-          <p class="hero-lead">Helping Turkish businesses, entrepreneurs and investors establish, invest and grow successfully in the United Kingdom.</p>
+          <p class="hero-lead"
+             data-en="Helping Turkish businesses, entrepreneurs and investors establish, invest and grow successfully in the United Kingdom."
+             data-tr="Türk işletmelerinin, girişimcilerin ve yatırımcıların Birleşik Krallık’ta yerleşmesine, yatırım yapmasına ve başarıyla büyümesine destek oluyoruz.">
+            Helping Turkish businesses, entrepreneurs and investors establish, invest and grow successfully in the United Kingdom.
+          </p>
           <div class="hero-actions">
-            <a class="button gold" href="mailto:erman@bridgetobritain.co.uk?subject=Free%20Consultation%20Request">Book a Free Consultation</a>
-            <a class="button outline" href="#services">Explore Our Services</a>
+            <a class="button gold" href="#booking" data-en="Book a Free Consultation" data-tr="Ücretsiz Görüşme Ayarla">Book a Free Consultation</a>
+            <a class="button outline" href="#services" data-en="Explore Our Services" data-tr="Hizmetlerimizi İnceleyin">Explore Our Services</a>
           </div>
         </div>
-
-        <div class="hero-photo reveal">
+        <div class="hero-photo">
           <img src="tower-bridge-shard-sunset.jpg" alt="Tower Bridge and The Shard at sunset">
         </div>
       </div>
@@ -57,17 +91,27 @@
           <img src="ethan-erman-bahadir.jpg" alt="Ethan Erman Bahadir, Founder and Managing Director">
         </div>
         <div class="about-copy reveal">
-          <p class="section-label">About Bridge to Britain</p>
+          <p class="section-label" data-en="Meet Ethan" data-tr="Ethan’la Tanışın">Meet Ethan</p>
           <h2>Ethan Erman Bahadir</h2>
-          <p class="role">Founder &amp; Managing Director</p>
-          <p class="intro">Bridge to Britain supports Turkish businesses, entrepreneurs and investors looking to establish, expand and invest successfully in the United Kingdom.</p>
-          <p>A British citizen originally from Türkiye who has lived in London since 1995, Ethan combines local market understanding with practical commercial experience.</p>
-          <p>With a background in mathematics, commercial building engineering, project coordination and property investment, he provides independent and bilingual support throughout each client’s UK journey.</p>
+          <p class="role" data-en="Founder & Managing Director" data-tr="Kurucu ve Genel Müdür">Founder &amp; Managing Director</p>
+          <p class="intro"
+             data-en="Bridge to Britain supports Turkish businesses, entrepreneurs and investors looking to establish, expand and invest successfully in the United Kingdom."
+             data-tr="Bridge to Britain, Birleşik Krallık’ta iş kurmak, büyümek ve yatırım yapmak isteyen Türk işletmelerine, girişimcilere ve yatırımcılara destek sunar.">
+            Bridge to Britain supports Turkish businesses, entrepreneurs and investors looking to establish, expand and invest successfully in the United Kingdom.
+          </p>
+          <p data-en="A British citizen originally from Türkiye who has lived in London since 1995, Ethan combines local market understanding with practical commercial experience."
+             data-tr="1995’ten beri Londra’da yaşayan ve Türkiye kökenli bir Britanya vatandaşı olan Ethan, yerel pazar bilgisini pratik ticari deneyimle birleştirir.">
+            A British citizen originally from Türkiye who has lived in London since 1995, Ethan combines local market understanding with practical commercial experience.
+          </p>
+          <p data-en="With a background in mathematics, commercial building engineering, project coordination and property investment, he provides independent and bilingual support from initial planning through to successful delivery."
+             data-tr="Matematik, ticari bina mühendisliği, proje koordinasyonu ve gayrimenkul yatırımı geçmişiyle, ilk planlamadan başarılı teslimata kadar bağımsız ve iki dilli destek sağlar.">
+            With a background in mathematics, commercial building engineering, project coordination and property investment, he provides independent and bilingual support from initial planning through to successful delivery.
+          </p>
           <div class="trust-row">
-            <span>Since 1995 in London</span>
-            <span>UK &amp; Türkiye insight</span>
-            <span>Independent advice</span>
-            <span>English &amp; Turkish</span>
+            <span data-en="London since 1995" data-tr="1995’ten beri Londra’da">London since 1995</span>
+            <span data-en="UK & Türkiye insight" data-tr="Birleşik Krallık ve Türkiye bilgisi">UK &amp; Türkiye insight</span>
+            <span data-en="Independent guidance" data-tr="Bağımsız danışmanlık">Independent guidance</span>
+            <span data-en="English & Turkish" data-tr="İngilizce ve Türkçe">English &amp; Turkish</span>
           </div>
         </div>
       </div>
@@ -76,16 +120,59 @@
     <section id="services" class="section services">
       <div class="container">
         <div class="section-heading centered reveal">
-          <p class="section-label">Core Services</p>
-          <h2>How we can help you</h2>
+          <p class="section-label" data-en="Core Services" data-tr="Temel Hizmetler">Core Services</p>
+          <h2 data-en="Support designed around your UK objectives" data-tr="Birleşik Krallık hedeflerinize uygun destek">Support designed around your UK objectives</h2>
         </div>
+
         <div class="services-grid">
-          <article class="service-card reveal"><span class="number">01</span><h3>UK Business Expansion</h3><p>Helping businesses establish, develop and grow in the UK market.</p></article>
-          <article class="service-card reveal"><span class="number">02</span><h3>Property Search &amp; Investment</h3><p>Identifying suitable residential and commercial property opportunities.</p></article>
-          <article class="service-card reveal"><span class="number">03</span><h3>Property Acquisition Support</h3><p>Independent viewings, local assessments and purchase coordination.</p></article>
-          <article class="service-card reveal"><span class="number">04</span><h3>Refurbishment Coordination</h3><p>Managing contractors, quotations, programmes and quality.</p></article>
-          <article class="service-card reveal"><span class="number">05</span><h3>Commercial Building Consultancy</h3><p>Practical guidance on commercial property and technical matters.</p></article>
-          <article class="service-card reveal"><span class="number">06</span><h3>Local Representation</h3><p>Acting as your trusted UK representative when you cannot be present.</p></article>
+          <article class="service-card reveal">
+            <span class="number">01</span>
+            <h3 data-en="UK Business Expansion" data-tr="Birleşik Krallık’ta İş Geliştirme">UK Business Expansion</h3>
+            <p data-en="Practical support for businesses establishing, developing and growing in the UK market."
+               data-tr="Birleşik Krallık pazarında kuruluş, gelişim ve büyüme için pratik destek.">
+              Practical support for businesses establishing, developing and growing in the UK market.
+            </p>
+          </article>
+          <article class="service-card reveal">
+            <span class="number">02</span>
+            <h3 data-en="Property Search & Investment" data-tr="Gayrimenkul Arama ve Yatırım">Property Search &amp; Investment</h3>
+            <p data-en="Identifying suitable residential and commercial property opportunities."
+               data-tr="Uygun konut ve ticari gayrimenkul fırsatlarının belirlenmesi.">
+              Identifying suitable residential and commercial property opportunities.
+            </p>
+          </article>
+          <article class="service-card reveal">
+            <span class="number">03</span>
+            <h3 data-en="Property Acquisition Support" data-tr="Gayrimenkul Satın Alma Desteği">Property Acquisition Support</h3>
+            <p data-en="Independent viewings, local assessments and coordination throughout the purchase process."
+               data-tr="Satın alma sürecinde bağımsız görüntüleme, yerel değerlendirme ve koordinasyon.">
+              Independent viewings, local assessments and coordination throughout the purchase process.
+            </p>
+          </article>
+          <article class="service-card reveal">
+            <span class="number">04</span>
+            <h3 data-en="Refurbishment Coordination" data-tr="Tadilat Proje Koordinasyonu">Refurbishment Coordination</h3>
+            <p data-en="Managing contractors, quotations, programmes and quality from start to completion."
+               data-tr="Yükleniciler, teklifler, programlar ve kalitenin baştan sona yönetilmesi.">
+              Managing contractors, quotations, programmes and quality from start to completion.
+            </p>
+          </article>
+          <article class="service-card reveal">
+            <span class="number">05</span>
+            <h3 data-en="Commercial Building Consultancy" data-tr="Ticari Bina Danışmanlığı">Commercial Building Consultancy</h3>
+            <p data-en="Practical guidance on commercial buildings, maintenance, engineering and technical matters."
+               data-tr="Ticari binalar, bakım, mühendislik ve teknik konularda pratik rehberlik.">
+              Practical guidance on commercial buildings, maintenance, engineering and technical matters.
+            </p>
+          </article>
+          <article class="service-card reveal">
+            <span class="number">06</span>
+            <h3 data-en="Local Representation" data-tr="Yerel Temsil">Local Representation</h3>
+            <p data-en="Acting as your trusted UK representative when you cannot be present."
+               data-tr="Birleşik Krallık’ta bulunamadığınızda güvenilir yerel temsilciniz olarak hareket etmek.">
+              Acting as your trusted UK representative when you cannot be present.
+            </p>
+          </article>
         </div>
       </div>
     </section>
@@ -93,14 +180,14 @@
     <section id="process" class="section process">
       <div class="container">
         <div class="section-heading centered reveal">
-          <p class="section-label">How We Work</p>
-          <h2>A clear route from first discussion to delivery</h2>
+          <p class="section-label" data-en="How We Work" data-tr="Nasıl Çalışıyoruz">How We Work</p>
+          <h2 data-en="A clear route from first discussion to delivery" data-tr="İlk görüşmeden teslimata kadar net bir yol">A clear route from first discussion to delivery</h2>
         </div>
         <div class="process-grid">
-          <div class="process-step reveal"><span>1</span><h3>Consult</h3><p>We understand your objectives, priorities and expected outcomes.</p></div>
-          <div class="process-step reveal"><span>2</span><h3>Plan</h3><p>We research the market and create a practical strategy.</p></div>
-          <div class="process-step reveal"><span>3</span><h3>Coordinate</h3><p>We organise meetings, viewings, professionals and contractors.</p></div>
-          <div class="process-step reveal"><span>4</span><h3>Support</h3><p>We help keep your project moving and remain your trusted UK contact.</p></div>
+          <div class="process-step reveal"><span>1</span><h3 data-en="Consult" data-tr="Görüşme">Consult</h3><p data-en="We understand your objectives, priorities and expected outcomes." data-tr="Hedeflerinizi, önceliklerinizi ve beklediğiniz sonuçları anlarız.">We understand your objectives, priorities and expected outcomes.</p></div>
+          <div class="process-step reveal"><span>2</span><h3 data-en="Plan" data-tr="Planlama">Plan</h3><p data-en="We research the market and create a practical strategy." data-tr="Pazarı araştırır ve uygulanabilir bir strateji oluştururuz.">We research the market and create a practical strategy.</p></div>
+          <div class="process-step reveal"><span>3</span><h3 data-en="Coordinate" data-tr="Koordinasyon">Coordinate</h3><p data-en="We organise meetings, viewings, professionals and contractors." data-tr="Toplantıları, ziyaretleri, uzmanları ve yüklenicileri organize ederiz.">We organise meetings, viewings, professionals and contractors.</p></div>
+          <div class="process-step reveal"><span>4</span><h3 data-en="Support" data-tr="Destek">Support</h3><p data-en="We keep your project moving and remain your trusted UK contact." data-tr="Projenizin ilerlemesini sağlar ve güvenilir Birleşik Krallık bağlantınız oluruz.">We keep your project moving and remain your trusted UK contact.</p></div>
         </div>
       </div>
     </section>
@@ -108,56 +195,131 @@
     <section id="why-us" class="section why-us">
       <div class="container why-grid">
         <div class="why-copy reveal">
-          <p class="section-label">Why Bridge to Britain?</p>
-          <h2>Local knowledge.<br>Trusted support.</h2>
-          <p>We combine UK market knowledge with practical commercial and property experience to provide reliable, independent assistance.</p>
+          <p class="section-label" data-en="Why Bridge to Britain?" data-tr="Neden Bridge to Britain?">Why Bridge to Britain?</p>
+          <h2 data-en="Local knowledge. Practical experience. Trusted support."
+              data-tr="Yerel bilgi. Pratik deneyim. Güvenilir destek.">Local knowledge.<br>Practical experience.<br>Trusted support.</h2>
+          <p data-en="We combine UK market knowledge with practical commercial and property experience to provide reliable, independent assistance."
+             data-tr="Güvenilir ve bağımsız destek sunmak için Birleşik Krallık pazar bilgisini pratik ticari ve gayrimenkul deneyimiyle birleştiriyoruz.">
+             We combine UK market knowledge with practical commercial and property experience to provide reliable, independent assistance.
+          </p>
         </div>
         <div class="stats reveal">
-          <div class="stat"><strong>1995</strong><span>Living in London since</span></div>
-          <div class="stat"><strong>2</strong><span>Markets: UK &amp; Türkiye</span></div>
-          <div class="stat"><strong>2</strong><span>Languages</span></div>
-          <div class="stat"><strong>100%</strong><span>Independent guidance</span></div>
+          <div class="stat"><strong>1995</strong><span data-en="Living in London since" data-tr="Londra’da yaşam başlangıcı">Living in London since</span></div>
+          <div class="stat"><strong>2</strong><span data-en="Markets: UK & Türkiye" data-tr="Pazar: Birleşik Krallık ve Türkiye">Markets: UK &amp; Türkiye</span></div>
+          <div class="stat"><strong>2</strong><span data-en="Languages" data-tr="Dil">Languages</span></div>
+          <div class="stat"><strong>1</strong><span data-en="Trusted local point of contact" data-tr="Güvenilir yerel irtibat noktası">Trusted local point of contact</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking">
+      <div class="container booking-grid">
+        <div class="booking-copy reveal">
+          <p class="section-label" data-en="Free Initial Consultation" data-tr="Ücretsiz İlk Görüşme">Free Initial Consultation</p>
+          <h2 data-en="Discuss your UK plans with Ethan" data-tr="Birleşik Krallık planlarınızı Ethan ile görüşün">Discuss your UK plans with Ethan</h2>
+          <p data-en="Choose the most convenient way to start the conversation. No map is used or required."
+             data-tr="Görüşmeye başlamak için size en uygun yolu seçin. Harita kullanılmaz ve gerekmez.">
+            Choose the most convenient way to start the conversation.
+          </p>
+        </div>
+        <div class="booking-actions reveal">
+          <a class="booking-option" href="mailto:erman@bridgetobritain.co.uk?subject=Free%20Consultation%20Request">
+            <strong data-en="Email Ethan" data-tr="Ethan’a E-posta Gönderin">Email Ethan</strong>
+            <span>erman@bridgetobritain.co.uk</span>
+          </a>
+          <a class="booking-option" href="tel:+447776251109">
+            <strong data-en="Call Ethan" data-tr="Ethan’ı Arayın">Call Ethan</strong>
+            <span>+44 7776 251 109</span>
+          </a>
+          <a class="booking-option" href="https://wa.me/447776251109?text=Hello%20Ethan%2C%20I%20would%20like%20to%20discuss%20my%20UK%20plans." target="_blank" rel="noopener">
+            <strong>WhatsApp</strong>
+            <span data-en="Start a message" data-tr="Mesaj başlatın">Start a message</span>
+          </a>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section contact">
-      <div class="container contact-grid">
+      <div class="container contact-layout">
         <div class="contact-copy reveal">
-          <p class="section-label">Get in Touch</p>
-          <h2>Let’s build your bridge to Britain.</h2>
-          <p>We would be pleased to discuss your plans and explore how Bridge to Britain can support your success in the UK.</p>
-          <a class="button gold" href="mailto:erman@bridgetobritain.co.uk?subject=Free%20Consultation%20Request">Book a Free Consultation</a>
+          <p class="section-label" data-en="Contact" data-tr="İletişim">Contact</p>
+          <h2 data-en="Let’s build your bridge to Britain." data-tr="Britanya’ya köprünüzü birlikte kuralım.">Let’s build your bridge to Britain.</h2>
+          <p data-en="Send a message using the form, call, email, WhatsApp or connect on LinkedIn."
+             data-tr="Formu kullanarak mesaj gönderin; telefon, e-posta, WhatsApp veya LinkedIn üzerinden iletişim kurun.">
+            Send a message using the form, call, email, WhatsApp or connect on LinkedIn.
+          </p>
+
+          <div class="contact-details">
+            <a href="tel:+447776251109"><span>Telephone</span>+44 7776 251 109</a>
+            <a href="mailto:erman@bridgetobritain.co.uk"><span>Email</span>erman@bridgetobritain.co.uk</a>
+            <a href="https://www.linkedin.com/in/ethan-erman-bahadir-b81787232/" target="_blank" rel="noopener"><span>LinkedIn</span>Ethan Erman Bahadir</a>
+            <div><span>Location</span>London, United Kingdom</div>
+          </div>
         </div>
 
-        <div class="contact-card reveal">
-          <h3>Ethan Erman Bahadir</h3>
-          <p class="role">Founder &amp; Managing Director</p>
-          <div class="contact-row"><span>Telephone</span><a href="tel:+447776251109">+44 7776 251 109</a></div>
-          <div class="contact-row"><span>Email</span><a href="mailto:erman@bridgetobritain.co.uk">erman@bridgetobritain.co.uk</a></div>
-          <div class="contact-row"><span>Website</span><a href="https://www.bridgetobritain.co.uk">www.bridgetobritain.co.uk</a></div>
-          <div class="contact-row"><span>Location</span><span>London, United Kingdom</span></div>
-          <div class="contact-row"><span>LinkedIn</span><a href="https://www.linkedin.com/in/ethan-erman-bahadir-b81787232/" target="_blank" rel="noopener">Connect with Ethan Erman Bahadir</a></div>
-        </div>
+        <form id="contact-form" class="contact-form reveal">
+          <label>
+            <span data-en="Name" data-tr="Ad Soyad">Name</span>
+            <input type="text" id="name" required autocomplete="name">
+          </label>
+          <label>
+            <span data-en="Email" data-tr="E-posta">Email</span>
+            <input type="email" id="email" required autocomplete="email">
+          </label>
+          <label>
+            <span data-en="Telephone (optional)" data-tr="Telefon (isteğe bağlı)">Telephone (optional)</span>
+            <input type="tel" id="phone" autocomplete="tel">
+          </label>
+          <label>
+            <span data-en="How can we help?" data-tr="Size nasıl yardımcı olabiliriz?">How can we help?</span>
+            <textarea id="message" rows="5" required></textarea>
+          </label>
+          <button class="button gold" type="submit" data-en="Prepare Email" data-tr="E-postayı Hazırla">Prepare Email</button>
+          <p class="form-note" data-en="This opens your email application with the message prepared. No details are stored on the website."
+             data-tr="Bu işlem mesajınızı hazırlayarak e-posta uygulamanızı açar. Bilgileriniz web sitesinde saklanmaz.">
+            This opens your email application with the message prepared. No details are stored on the website.
+          </p>
+        </form>
 
         <div class="qr-card reveal">
-          <img src="contact-qr.png" alt="QR code linking to the Bridge to Britain digital business card">
-          <strong>Scan for contact details</strong>
-          <a href="contact.html">Open digital business card</a>
+          <img src="contact-qr.png" alt="QR code for Ethan Erman Bahadir digital business card">
+          <strong data-en="Scan for contact details" data-tr="İletişim bilgileri için tarayın">Scan for contact details</strong>
+          <a href="contact.html" data-en="Open digital business card" data-tr="Dijital kartviziti açın">Open digital business card</a>
         </div>
       </div>
     </section>
   </main>
 
+  <a class="whatsapp-float" href="https://wa.me/447776251109?text=Hello%20Ethan%2C%20I%20would%20like%20to%20discuss%20my%20UK%20plans." target="_blank" rel="noopener" aria-label="Contact Ethan on WhatsApp">WA</a>
+
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie notice">
+    <p data-en="This site uses only essential local storage for your language and cookie preferences. No advertising cookies are used."
+       data-tr="Bu site yalnızca dil ve çerez tercihleriniz için gerekli yerel depolamayı kullanır. Reklam çerezleri kullanılmaz.">
+      This site uses only essential local storage for your language and cookie preferences. No advertising cookies are used.
+    </p>
+    <button id="cookie-accept" type="button" data-en="Accept" data-tr="Kabul Et">Accept</button>
+    <a href="cookies.html" data-en="Cookie Policy" data-tr="Çerez Politikası">Cookie Policy</a>
+  </div>
+
   <footer>
     <div class="container footer-wrap">
       <img src="bridge-to-britain-logo.jpg" alt="Bridge to Britain">
+      <div class="footer-links">
+        <a href="privacy.html" data-en="Privacy" data-tr="Gizlilik">Privacy</a>
+        <a href="terms.html" data-en="Terms" data-tr="Şartlar">Terms</a>
+        <a href="cookies.html" data-en="Cookies" data-tr="Çerezler">Cookies</a>
+        <a href="contact.html" data-en="Digital Business Card" data-tr="Dijital Kartvizit">Digital Business Card</a>
+      </div>
       <div class="footer-text">
-        <strong>Business Expansion • Property Investment • Local Representation</strong>
+        <strong data-en="Business Expansion • Property Investment • Local Representation"
+                data-tr="İş Geliştirme • Gayrimenkul Yatırımı • Yerel Temsil">
+          Business Expansion • Property Investment • Local Representation
+        </strong>
         <p>© 2026 Bridge to Britain. All rights reserved.</p>
       </div>
     </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,20 +1,26 @@
-BRIDGE TO BRITAIN — FINAL HERO FIX
+BRIDGE TO BRITAIN — COMPLETE WEBSITE (NO MAP)
 
-This package corrects the hero section completely:
+This clean production package includes:
 
-- Clean Tower Bridge and The Shard photograph with NO embedded writing
-- Website headline remains only in the left navy panel
-- Strict 43% text / 57% photograph desktop layout
-- No overlap between the text and photograph
-- Responsive tablet and mobile layout
-- All contact, portrait, QR and digital-business-card files retained
+- Clean split hero with text on the left and Tower Bridge/The Shard image on the right
+- Ethan Erman Bahadir professional profile section
+- Six core services
+- Four-step process
+- Why-us statistics
+- English/Turkish language switch
+- Free consultation section
+- Contact form that prepares an email in the visitor's email application
+- Telephone, email, LinkedIn and WhatsApp links
+- Floating WhatsApp button
+- Digital business card and downloadable vCard
+- Contact QR code
+- Privacy, Terms and Cookie pages
+- Essential cookie notice only
+- SEO metadata, structured data, robots.txt and sitemap.xml
+- Responsive desktop, tablet and mobile design
+- NO MAP
 
-Upload ALL files in this folder to the ROOT of the v2 branch and replace
-the existing files.
+Upload ALL files from this folder to the ROOT of the v2 branch.
 
-Important files updated:
-- style.css
-- tower-bridge-shard-sunset.jpg
-
-Commit message:
-Final hero fix — remove embedded text and prevent overlap
+Recommended commit message:
+Complete website upgrade — bilingual, contact, QR, policies and SEO, no map

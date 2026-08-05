@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bridgetobritain.github.io/Bridge-to-Britain/sitemap.xml
