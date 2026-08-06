@@ -1,13 +1,15 @@
-BRIDGE TO BRITAIN — UPDATED LOGO AND SERVICES
+BRIDGE TO BRITAIN — FINAL SERVICES SECTION
 
 This package includes:
-- New Bridge to Britain logo supplied by the user
-- Updated six-box services section
-- Bilingual English/Turkish functionality
-- Existing contact form, WhatsApp, QR code, privacy pages and SEO
+- New Bridge to Britain logo
+- Final six-box navy-and-gold services design
+- Crisp SVG service icons
+- English and Turkish language switching
+- Responsive desktop, tablet and mobile layouts
+- Existing contact, WhatsApp, QR, policy and SEO features
 - No map
 
 Upload ALL files to the ROOT of the v2 branch and replace existing files.
 
-Recommended commit message:
-Update logo and services section
+Commit message:
+Final six-box services section and updated logo
