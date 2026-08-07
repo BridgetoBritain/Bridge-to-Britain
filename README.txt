@@ -1,19 +1,19 @@
-BRIDGE TO BRITAIN — FINAL CONSULTATION UPDATE
+BRIDGE TO BRITAIN — FINAL HOW CAN WE HELP YOU UPDATE
 
 This version includes:
-- Approved large Bridge to Britain logo
-- Final six-box service design with clear icons
-- "From Türkiye to the UK. We Build Bridges for Your Success."
-- "How We Help You" service presentation retained
-- Improved Free Initial Consultation section
-- "Let's Discuss Your UK Plans" visitor-focused heading
-- Larger clickable Email, Call and WhatsApp cards with clear icons
-- Improved dark contact section wording
-- Contact form, LinkedIn, QR code and WhatsApp retained
-- English/Turkish switch retained
+- FROM TÜRKİYE TO THE UK.
+- WE BUILD BRIDGES FOR YOUR SUCCESS.
+- Turkish ribbon removed
+- OUR SERVICES changed to HOW CAN WE HELP YOU?
+- Larger, clearer navy-and-gold service icon boxes
+- Clearer handshake, refurbishment, building and local-representation icons
+- Approved large Bridge to Britain logo retained
+- Meet Ethan section retained
+- Free Initial Consultation section retained
+- Contact form, QR code, WhatsApp, LinkedIn and bilingual switch retained
 - No map
 
 Upload ALL files to the ROOT of the v2 branch and replace existing files.
 
 Recommended commit message:
-Improve free consultation and contact section
+Update services to How Can We Help You and enlarge icons
