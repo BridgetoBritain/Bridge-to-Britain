@@ -231,3 +231,30 @@ footer{background:var(--navy2);color:#fff;padding:24px 0}
 #process{border-top:1px solid rgba(201,155,84,.16)}
 #consultation{border-top:1px solid rgba(201,155,84,.16)}
 #contact{border-top:1px solid rgba(201,155,84,.16)}
+
+
+/* V3.3 refined Why Bridge to Britain section */
+.why-grid{
+  grid-template-columns:.9fr 1.1fr;
+}
+.why-cards-four{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+.why-cards-four .why-card{
+  min-height:180px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:24px;
+}
+.why-cards-four .why-card strong{
+  font-size:1.05rem;
+  margin-bottom:8px;
+}
+.why-cards-four .why-card span{
+  line-height:1.6;
+}
+@media(max-width:800px){
+  .why-cards-four{grid-template-columns:1fr}
+}
