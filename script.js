@@ -25,3 +25,25 @@ if(form){
     location.href=`mailto:erman@bridgetobritain.co.uk?subject=${encodeURIComponent('Bridge to Britain enquiry from '+n)}&body=${encodeURIComponent(`Name: ${n}\nEmail: ${em}\nTelephone: ${ph}\n\n${msg}`)}`;
   });
 }
+
+
+const languageButton=document.querySelector('.language-toggle');
+const translatable=document.querySelectorAll('[data-en][data-tr]');
+let currentLanguage=localStorage.getItem('btb-language')||'en';
+
+function applyLanguage(lang){
+  currentLanguage=lang;
+  document.documentElement.lang=lang;
+  translatable.forEach(el=>{
+    const value=el.dataset[lang];
+    if(value) el.textContent=value;
+  });
+  if(languageButton) languageButton.textContent=lang==='en'?'TR':'EN';
+  localStorage.setItem('btb-language',lang);
+}
+if(languageButton){
+  languageButton.addEventListener('click',()=>{
+    applyLanguage(currentLanguage==='en'?'tr':'en');
+  });
+}
+applyLanguage(currentLanguage);

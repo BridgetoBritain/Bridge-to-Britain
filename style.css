@@ -215,3 +215,16 @@ footer{background:var(--navy2);color:#fff;padding:24px 0}
   .service-icon svg{width:52px;height:52px}
   .section{padding:66px 0}
 }
+
+.language-toggle{
+  border:1px solid rgba(255,255,255,.35);
+  background:transparent;
+  color:#fff;
+  padding:8px 10px;
+  cursor:pointer;
+  font-weight:800;
+}
+.language-toggle:hover{
+  border-color:var(--gold);
+  color:var(--gold2);
+}
