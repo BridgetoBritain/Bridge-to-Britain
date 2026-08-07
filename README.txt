@@ -1,31 +1,24 @@
-BRIDGE TO BRITAIN — V3.1 BILINGUAL
+BRIDGE TO BRITAIN — V3.2 REORDERED HOMEPAGE
 
-This version restores the TR language button and Turkish translations while keeping the approved V3 design.
+Final homepage order:
+1. Hero
+2. Meet Ethan
+3. How Can We Help You?
+4. Why Bridge to Britain
+5. How We Work
+6. Free Consultation / Contact
 
-Included:
-- English / Turkish switch (TR ⇄ EN)
-- Homepage Turkish translations
-- Six service pages with Turkish translations
-- Digital business card Turkish switch
-- Gold circular service icons
-- Clearer acquisition / refurbishment / local representation icons
-- FROM TÜRKİYE TO THE UK.
-- WE BUILD BRIDGES FOR YOUR SUCCESS.
-- HOW CAN WE HELP YOU?
-- Turkish ribbon remains removed
-- Meet Ethan
-- Why Bridge to Britain
-- How We Work
-- Free consultation
-- Contact form, QR, WhatsApp, LinkedIn
+Changes:
+- Removed the four-item trust strip under the hero
+- Kept bilingual EN/TR functionality
+- Kept gold circular service icons
+- Kept all six service pages
+- Kept Meet Ethan, Why Bridge to Britain, How We Work and contact sections
+- Kept QR code, WhatsApp, LinkedIn and digital business card
 - No map
+- Cache version updated to v32
 
-UPLOAD:
-1. Upload ALL files to the ROOT of the v2 branch.
-2. Replace existing files.
-3. Commit message:
-   Restore TR translation and launch bilingual V3.1
-4. Wait for GitHub Pages deployment success.
-5. Refresh with Ctrl+Shift+R.
+Upload ALL files to the ROOT of the v2 branch and replace existing files.
 
-Cache-busting has been updated to ?v=31.
+Recommended commit message:
+Reorder homepage and remove trust strip
