@@ -1,16 +1,14 @@
-BRIDGE TO BRITAIN — FINAL SERVICES SECTION
+BRIDGE TO BRITAIN — FINAL LARGE LOGO UPDATE
 
-This package includes:
-- New Bridge to Britain logo
-- Final six-box navy-and-gold services design
-- Crisp SVG service icons
-- English and Turkish language switching
-- Responsive desktop, tablet and mobile layouts
-- Existing contact, WhatsApp, QR, policy and SEO features
+This version keeps the approved Bridge to Britain logo with:
+- No tagline beneath the company name
+- Tight crop so the logo itself appears much larger
+- Larger desktop and mobile header display
+- Existing six-box services section retained
+- All contact, QR, WhatsApp, bilingual, policy and SEO features retained
 - No map
 
 Upload ALL files to the ROOT of the v2 branch and replace existing files.
 
-Commit message:
-Final six-box services section and updated logo
-Website updated on 7 August 2026 at 21:50
+Recommended commit message:
+Enlarge approved Bridge to Britain header logo
