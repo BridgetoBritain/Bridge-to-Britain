@@ -1,14 +1,19 @@
-BRIDGE TO BRITAIN — FINAL LARGE LOGO UPDATE
+BRIDGE TO BRITAIN — FINAL CONSULTATION UPDATE
 
-This version keeps the approved Bridge to Britain logo with:
-- No tagline beneath the company name
-- Tight crop so the logo itself appears much larger
-- Larger desktop and mobile header display
-- Existing six-box services section retained
-- All contact, QR, WhatsApp, bilingual, policy and SEO features retained
+This version includes:
+- Approved large Bridge to Britain logo
+- Final six-box service design with clear icons
+- "From Türkiye to the UK. We Build Bridges for Your Success."
+- "How We Help You" service presentation retained
+- Improved Free Initial Consultation section
+- "Let's Discuss Your UK Plans" visitor-focused heading
+- Larger clickable Email, Call and WhatsApp cards with clear icons
+- Improved dark contact section wording
+- Contact form, LinkedIn, QR code and WhatsApp retained
+- English/Turkish switch retained
 - No map
 
 Upload ALL files to the ROOT of the v2 branch and replace existing files.
 
 Recommended commit message:
-Enlarge approved Bridge to Britain header logo
+Improve free consultation and contact section
