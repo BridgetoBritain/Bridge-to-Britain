@@ -1,19 +1,29 @@
-BRIDGE TO BRITAIN — V3.3 WHY SECTION REFINED
+BRIDGE TO BRITAIN — VERSION 4.0 FINAL
 
-Changes:
-- Reduced Why Bridge to Britain from 6 repetitive cards to 4 stronger cards
-- New heading: Why businesses choose Bridge to Britain
-- Cards:
-  1. London Based
-  2. English & Turkish
-  3. Business & Property Expertise
-  4. Independent UK Representative
-- EN/TR translations retained
-- All previous homepage/service updates retained
+Homepage structure:
+1. Hero
+2. Meet Ethan
+3. How Can We Help You?
+4. Why Choose Bridge to Britain?
+5. How We Work
+6. Who We Work With
+7. Free Initial Consultation / Contact
+
+Key improvements:
+- Clean V4 rebuild
+- New hero wording
+- Four concise Why cards
+- Timeline-style How We Work
+- Removed duplicate Email/Call/WhatsApp consultation cards
+- Contact section now uses “Let’s Discuss Your UK Plans”
+- Who We Work With section
+- Improved footer
+- EN/TR switching retained
+- Gold circular service icons
 - No map
-- Cache version updated to v33
+- Cache version v40
 
 Upload ALL files to the ROOT of the v2 branch and replace existing files.
 
 Recommended commit message:
-Refine Why Bridge to Britain section
+Launch Bridge to Britain V4 final
