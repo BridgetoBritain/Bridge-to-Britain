@@ -1,10 +1,13 @@
-BRIDGE TO BRITAIN — VERSION 5.8
+BRIDGE TO BRITAIN — VERSION 5.9
 
-Hero refinement:
-- “Business • Property • Local Representation” now stays on one line on desktop.
-- Reduced to a supporting size so it no longer competes with “Your Trusted UK Partner”.
-- Mobile/tablet wrapping remains responsive.
-- Cache version v58.
+Hero service-line correction:
+- Replaced the oversized H1 service descriptor with a normal supporting paragraph.
+- “Business • Property • Local Representation” now sits beneath the slogan at a compact size.
+- Removed the CSS specificity conflict that was making the service line huge.
+- Desktop stays on one line where space allows.
+- Tablet/mobile wrap naturally.
+- “Your Trusted UK Partner” remains the dominant hero headline.
+- Cache version v59.
 
 Recommended commit message:
-Keep hero service line on one line
+Fix oversized hero service line
