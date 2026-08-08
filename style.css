@@ -311,3 +311,55 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     padding:7px 11px;
   }
 }
+
+
+/* V5.5 — Make "Your Trusted UK Partner" the primary brand promise */
+.trusted-partner-main{
+  margin:8px 0 12px;
+  color:#fff;
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:clamp(2.8rem,4.7vw,5.2rem);
+  line-height:.96;
+  font-weight:700;
+  letter-spacing:-.02em;
+  text-transform:none;
+  max-width:720px;
+}
+.hero-slogan{
+  margin-bottom:6px;
+}
+.hero-bridge-support{
+  margin:0 0 18px;
+  color:var(--gold-soft);
+  font-size:clamp(1.45rem,2.3vw,2.35rem);
+  line-height:1.08;
+  letter-spacing:.02em;
+  text-transform:none;
+  font-weight:800;
+}
+.hero-support-heading{
+  margin:0;
+  max-width:650px;
+  color:#fff;
+  font-family:Montserrat,Arial,sans-serif;
+  font-size:clamp(1.25rem,1.9vw,1.8rem);
+  line-height:1.35;
+  font-weight:700;
+}
+.hero-lead{
+  max-width:660px;
+  margin-top:14px;
+  font-size:1rem;
+  line-height:1.7;
+}
+@media(max-width:650px){
+  .trusted-partner-main{
+    font-size:clamp(2.35rem,11vw,3.4rem);
+  }
+  .hero-bridge-support{
+    font-size:1.35rem;
+  }
+  .hero-support-heading{
+    font-size:1.1rem;
+  }
+}
