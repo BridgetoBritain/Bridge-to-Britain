@@ -1,14 +1,15 @@
-BRIDGE TO BRITAIN — VERSION 5.11
+BRIDGE TO BRITAIN — VERSION 5.12
 
-Final hero typography polish:
-- Increased “Your Trusted UK Partner” by approximately 5–8%.
-- Moved the hero copy slightly upward on desktop.
-- Increased the supporting paragraph slightly for readability.
-- Added a little more breathing room between the slogan, service line and paragraph.
-- Button sizes unchanged.
-- Hero image proportion unchanged.
-- EN/TR switching retained.
-- Cache version v511.
+Final hero refinement:
+- “Your Trusted UK Partner” stays on one line on wide desktop screens.
+- Headline size is reduced only enough to preserve a strong, premium hierarchy.
+- On smaller screens the headline can wrap naturally for readability.
+- Service line updated to:
+  Business Expansion • Property • Local Representation
+- Hero image/text proportions remain unchanged.
+- Existing buttons and supporting paragraph remain unchanged.
+- EN/TR functionality retained.
+- Cache version v512.
 
 Recommended commit message:
-Polish hero typography and spacing
+Finalise hero headline and service positioning

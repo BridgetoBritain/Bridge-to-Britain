@@ -578,3 +578,30 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     transform:none;
   }
 }
+
+
+/* V5.12 — final hero headline + service wording */
+@media(min-width:1400px){
+  /* Keep the core proposition on one line on wide desktop screens */
+  .trusted-partner-main{
+    font-size:clamp(3rem,3.55vw,4.45rem);
+    line-height:1;
+    white-space:nowrap;
+    letter-spacing:-0.025em;
+    max-width:none;
+  }
+
+  .hero .hero-service-line{
+    white-space:nowrap;
+    font-size:clamp(.96rem,1.02vw,1.15rem);
+    letter-spacing:.005em;
+  }
+}
+
+/* On smaller screens allow natural wrapping rather than shrinking excessively */
+@media(max-width:1399px){
+  .trusted-partner-main,
+  .hero .hero-service-line{
+    white-space:normal;
+  }
+}
