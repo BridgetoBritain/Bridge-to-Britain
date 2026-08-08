@@ -1,17 +1,9 @@
-BRIDGE TO BRITAIN — VERSION 5.21
+BRIDGE TO BRITAIN — VERSION 5.22
 
-About section wording and colour fix:
-- Keeps the original portrait/image unchanged.
-- Restores exact wording:
-  “with a background in mathematics, commercial building engineering, project coordination and property search & investment, he provides independent, practical support — helping clients make informed decisions and manage opportunities in the UK with confidence.”
-- Gold colour is used ONLY for:
-  1. Your UK Partner
-  2. Your trusted UK partner for business expansion, property search & investment and local representation.
-  3. UK Knowledge • Turkish Understanding • Practical Experience
-- Founder & Managing Director is navy.
-- Biography and closing statement are navy.
-- EN/TR switching retained.
-- Cache version v521.
+Small biography correction:
+- Changed the beginning of the sentence from “with a background...” to “With a background...”
+- All other wording, colours, layout and the original portrait remain unchanged.
+- Cache version updated to v522.
 
 Recommended commit:
-Fix About section wording and gold hierarchy
+Capitalise With in About biography
