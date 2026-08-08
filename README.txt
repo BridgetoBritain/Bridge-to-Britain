@@ -1,15 +1,11 @@
-BRIDGE TO BRITAIN — VERSION 5.12
+BRIDGE TO BRITAIN — VERSION 5.13
 
-Final hero refinement:
-- “Your Trusted UK Partner” stays on one line on wide desktop screens.
-- Headline size is reduced only enough to preserve a strong, premium hierarchy.
-- On smaller screens the headline can wrap naturally for readability.
-- Service line updated to:
-  Business Expansion • Property • Local Representation
-- Hero image/text proportions remain unchanged.
-- Existing buttons and supporting paragraph remain unchanged.
-- EN/TR functionality retained.
-- Cache version v512.
+Meet Ethan wording refinement:
+- Updated the bold introduction to:
+  “Bridge to Britain is your trusted UK partner for business, property and local representation.”
+- Turkish translation updated to match.
+- No layout, photo size or spacing changes.
+- Cache version v513.
 
 Recommended commit message:
-Finalise hero headline and service positioning
+Refine Meet Ethan trusted partner message
