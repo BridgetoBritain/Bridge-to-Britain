@@ -236,3 +236,37 @@ footer{background:var(--navy2);color:#fff;padding:34px 0 16px}.footer-grid{displ
   .service-icon{width:78px;height:78px}
   .service-icon svg{width:46px;height:46px}
 }
+
+
+/* V4.5 final distinct professional service icons */
+.service-icon{
+  width:112px;
+  height:112px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#fbf6ec;
+  border:1px solid rgba(201,155,84,.24);
+  box-shadow:0 10px 24px rgba(7,31,56,.08);
+}
+.service-icon svg{
+  width:64px;
+  height:64px;
+  fill:none;
+  stroke:var(--navy);
+  stroke-width:2.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.service-card:nth-child(1) .service-icon path:nth-last-child(-n+2),
+.service-card:nth-child(2) .service-icon circle,
+.service-card:nth-child(3) .service-icon path:last-child,
+.service-card:nth-child(4) .service-icon circle,
+.service-card:nth-child(5) .service-icon path:last-child,
+.service-card:nth-child(6) .service-icon path:nth-last-child(-n+2){
+  stroke:var(--gold);
+}
+@media(max-width:650px){
+  .service-icon{width:78px;height:78px}
+  .service-icon svg{width:45px;height:45px}
+}
