@@ -1,15 +1,16 @@
-BRIDGE TO BRITAIN — VERSION 5.17
+BRIDGE TO BRITAIN — VERSION 5.18
 
-Visible Services CTA fix:
-- Made the project-conversation CTA always visible (removed reveal dependency).
-- Changed it to a navy/gold full-width callout beneath the six service cards.
-- Added “READY TO TALK?” label.
-- Retained:
-  “Have a UK project or opportunity in mind?”
-  “Tell us what you're looking to achieve and we'll explain how Bridge to Britain can support you.”
-  “Book a Free Consultation”
-- EN/TR translation retained.
-- Cache version v517.
+Your UK Partner section refinement:
+- Changed “Meet Ethan” eyebrow to “Your UK Partner”.
+- Kept Ethan Erman Bahadir and Founder & Managing Director.
+- Strengthened the trusted-partner positioning.
+- Rewrote biography to emphasise over 30 years of UK experience and understanding of both British and Turkish business cultures.
+- Added a closing line:
+  “From your first idea to the final outcome, you have one trusted UK contact by your side.”
+- Added:
+  “UK Knowledge • Turkish Understanding • Practical Experience”
+- EN/TR translations retained.
+- Cache version v518.
 
 Recommended commit message:
-Make services consultation CTA clearly visible
+Strengthen Your UK Partner section

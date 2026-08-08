@@ -701,3 +701,33 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     font-size:1.2rem;
   }
 }
+
+
+/* V5.18 — Your UK Partner section refinement */
+.about-trusted-close{
+  margin:26px 0 0;
+  max-width:860px;
+  color:var(--ink);
+  font-size:1.05rem;
+  line-height:1.6;
+  font-weight:800;
+}
+.about-trust-strip{
+  margin-top:18px;
+  color:var(--gold);
+  font-size:.82rem;
+  line-height:1.4;
+  font-weight:800;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+}
+@media(max-width:650px){
+  .about-trusted-close{
+    margin-top:20px;
+    font-size:1rem;
+  }
+  .about-trust-strip{
+    font-size:.74rem;
+    letter-spacing:.08em;
+  }
+}
