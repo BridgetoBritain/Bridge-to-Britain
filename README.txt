@@ -1,4 +1,6 @@
-BRIDGE TO BRITAIN — VERSION 4.0 FINAL
+BRIDGE TO BRITAIN — VERSION 5.0 CLEAN FINAL
+
+This is a clean rebuild intended to replace the accumulated V3/V4 patch CSS.
 
 Homepage structure:
 1. Hero
@@ -9,21 +11,29 @@ Homepage structure:
 6. Who We Work With
 7. Free Initial Consultation / Contact
 
-Key improvements:
-- Clean V4 rebuild
-- New hero wording
-- Four concise Why cards
-- Timeline-style How We Work
-- Removed duplicate Email/Call/WhatsApp consultation cards
-- Contact section now uses “Let’s Discuss Your UK Plans”
-- Who We Work With section
-- Improved footer
-- EN/TR switching retained
-- Gold circular service icons
+V5 improvements:
+- Rebuilt style.css from scratch
+- Removed all duplicate V4.3 / V4.4 / V4.6 service-card CSS
+- Removed emergency inline service-card CSS
+- Six distinct service icons are embedded directly in index.html
+- Consistent premium cream / navy / gold service-card design
+- Clean responsive desktop, tablet and mobile layouts
+- EN/TR language switching retained
+- Service detail pages cleaned and retained
+- Contact page, legal pages, QR code and WhatsApp retained
 - No map
-- Cache version v40
+- Cache version v50
 
-Upload ALL files to the ROOT of the v2 branch and replace existing files.
+CORRECT SERVICE ICONS:
+1. UK Business Expansion — growth chart
+2. Property Search & Investment — house + magnifying glass
+3. Property Acquisition Support — document + approval check
+4. Refurbishment Coordination — project checklist
+5. Commercial Building Consultancy — commercial building
+6. Local Representation — professional representative
+
+UPLOAD:
+Upload ALL files from this package to the ROOT of the v2 branch and replace existing files.
 
 Recommended commit message:
-Launch Bridge to Britain V4 final
+Launch clean Bridge to Britain V5
