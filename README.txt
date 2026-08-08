@@ -7,3 +7,5 @@ Small biography correction:
 
 Recommended commit:
 Capitalise With in About biography
+
+Latest update: refined the Meet Ethan paragraph to distinguish professional background from property search & investment experience.
