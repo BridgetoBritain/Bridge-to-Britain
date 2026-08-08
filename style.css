@@ -537,3 +537,44 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     filter:saturate(.92) brightness(.96);
   }
 }
+
+
+/* V5.11 — final hero typography and spacing polish */
+@media(min-width:1100px){
+  .hero-copy{
+    transform:translateY(-18px);
+  }
+
+  .trusted-partner-main{
+    font-size:clamp(3.15rem,5.05vw,5.25rem);
+    line-height:.95;
+    margin-bottom:12px;
+  }
+
+  .hero-bridge-support{
+    margin-bottom:22px;
+  }
+
+  .hero .hero-service-line{
+    margin-top:26px;
+  }
+
+  .hero-lead{
+    font-size:1.04rem;
+    line-height:1.72;
+    max-width:660px;
+    margin-top:20px;
+  }
+}
+
+@media(min-width:1450px){
+  .trusted-partner-main{
+    font-size:clamp(3.25rem,5.15vw,5.45rem);
+  }
+}
+
+@media(max-width:1099px){
+  .hero-copy{
+    transform:none;
+  }
+}
