@@ -802,3 +802,38 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   #about .about-partner-eyebrow{font-size:.76rem;margin-bottom:10px}
   #about .about-role{font-size:.9rem;margin-top:10px}
 }
+
+
+/* V5.21 — About section colour hierarchy
+   Gold ONLY on:
+   1. Your UK Partner
+   2. Trusted UK partner statement
+   3. UK Knowledge • Turkish Understanding • Practical Experience
+*/
+#about .about-partner-eyebrow,
+#about .eyebrow.about-partner-eyebrow{
+  color:var(--gold) !important;
+}
+
+#about .about-role{
+  color:var(--ink) !important;
+}
+
+#about .about-client-intro{
+  color:var(--gold) !important;
+}
+
+#about .about-body-copy{
+  color:var(--ink) !important;
+  font-weight:400 !important;
+  text-transform:none !important;
+  letter-spacing:0 !important;
+}
+
+#about .about-trusted-close{
+  color:var(--ink) !important;
+}
+
+#about .about-trust-strip{
+  color:var(--gold) !important;
+}
