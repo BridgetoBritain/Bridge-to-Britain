@@ -288,3 +288,26 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   .process-card{min-height:0}
   .process-heading h2{font-size:clamp(2.3rem,10vw,3.1rem)}
 }
+
+
+/* V5.4 visible brand positioning */
+.trusted-partner-kicker{
+  display:inline-block;
+  margin:0 0 14px;
+  padding:8px 14px;
+  border:1px solid rgba(201,154,80,.55);
+  background:rgba(201,154,80,.08);
+  color:var(--gold-soft);
+  font-size:.88rem;
+  font-weight:900;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  width:max-content;
+}
+@media(max-width:650px){
+  .trusted-partner-kicker{
+    font-size:.76rem;
+    letter-spacing:.10em;
+    padding:7px 11px;
+  }
+}
