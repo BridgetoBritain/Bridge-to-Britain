@@ -1,16 +1,18 @@
-BRIDGE TO BRITAIN — VERSION 5.18
+BRIDGE TO BRITAIN — VERSION 5.19
 
-Your UK Partner section refinement:
-- Changed “Meet Ethan” eyebrow to “Your UK Partner”.
-- Kept Ethan Erman Bahadir and Founder & Managing Director.
-- Strengthened the trusted-partner positioning.
-- Rewrote biography to emphasise over 30 years of UK experience and understanding of both British and Turkish business cultures.
-- Added a closing line:
-  “From your first idea to the final outcome, you have one trusted UK contact by your side.”
-- Added:
+Client-focused Your UK Partner refinement:
+- Keeps the portrait and overall layout.
+- Uses “Your UK Partner” as the section eyebrow.
+- Leads with the client benefit rather than biography.
+- Uses normal navy body text for biography instead of large gold uppercase paragraphs.
+- Highlights 30+ years of UK experience and British/Turkish business understanding.
+- Adds confidence and decision-support language.
+- Closing statement updated to:
+  “From your first conversation to successful delivery, you have one trusted UK contact by your side.”
+- Retains the gold trust strip:
   “UK Knowledge • Turkish Understanding • Practical Experience”
-- EN/TR translations retained.
-- Cache version v518.
+- English/Turkish language attributes retained.
+- Cache version v519.
 
-Recommended commit message:
-Strengthen Your UK Partner section
+Recommended commit:
+Refine Your UK Partner section for client focus

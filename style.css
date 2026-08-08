@@ -731,3 +731,49 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     letter-spacing:.08em;
   }
 }
+
+
+/* V5.19 — Client-focused Your UK Partner hierarchy */
+#about .about-client-intro{
+  margin:22px 0 0;
+  max-width:900px;
+  color:var(--ink);
+  font-size:1.12rem;
+  line-height:1.55;
+  font-weight:800;
+}
+#about .about-body-copy{
+  margin:22px 0 0;
+  max-width:900px;
+  color:var(--ink);
+  font-size:1.04rem;
+  line-height:1.68;
+  font-weight:400;
+  letter-spacing:0;
+  text-transform:none;
+}
+#about .about-trusted-close{
+  margin:26px 0 0;
+  max-width:900px;
+  color:var(--ink);
+  font-size:1.06rem;
+  line-height:1.58;
+  font-weight:800;
+  letter-spacing:0;
+  text-transform:none;
+}
+#about .about-trust-strip{
+  margin-top:20px;
+  color:var(--gold);
+  font-size:.78rem;
+  line-height:1.45;
+  font-weight:800;
+  letter-spacing:.10em;
+  text-transform:uppercase;
+}
+@media(max-width:650px){
+  #about .about-client-intro{font-size:1.04rem;margin-top:18px}
+  #about .about-body-copy{font-size:1rem;line-height:1.62;margin-top:18px}
+  #about .about-trusted-close{font-size:1rem;margin-top:22px}
+  #about .about-trust-strip{font-size:.72rem;letter-spacing:.07em;margin-top:16px}
+}
