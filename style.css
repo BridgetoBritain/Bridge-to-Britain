@@ -837,3 +837,12 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
 #about .about-trust-strip{
   color:var(--gold) !important;
 }
+
+/* V5.30 — Contact form refinement */
+.contact-reassurance{
+  margin:14px 0 0;
+  text-align:center;
+  color:rgba(255,255,255,.72);
+  font-size:.80rem;
+  line-height:1.5;
+}

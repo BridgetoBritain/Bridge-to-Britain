@@ -1,11 +1,13 @@
-BRIDGE TO BRITAIN — VERSION 5.29
+BRIDGE TO BRITAIN — VERSION 5.30
 
-Startup wording refinement:
-Changed the introduction in “Is Bridge to Britain Right for You?” from
-“We work with...” to:
+Contact section refinement:
+- Intro changed to:
+  “Tell me what you're looking to achieve in the UK and I'll explain how Bridge to Britain may be able to support your plans.”
+- Telephone is now marked optional.
+- Button changed to “Continue by Email”.
+- Added reassurance:
+  “No obligation. Your enquiry will be treated confidentially.”
+- Existing contact details, QR code, layout and EN/TR switching retained.
+- Cache version v530.
 
-“Bridge to Britain supports businesses, entrepreneurs, property investors and overseas clients who need practical support, local knowledge and a reliable presence in the UK.”
-
-This describes the service confidently without implying an established client portfolio.
-English/Turkish switching retained.
-Cache version v529.
+Form behavior detected: mailto/email-client flow.
