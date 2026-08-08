@@ -1,24 +1,13 @@
-BRIDGE TO BRITAIN — VERSION 5.6
+BRIDGE TO BRITAIN — VERSION 5.7 FINAL POLISH
 
-HERO BALANCE UPDATE
-
-Primary positioning:
-YOUR TRUSTED UK PARTNER
-
-Hero hierarchy:
-- From Türkiye to the UK.
-- Your Trusted UK Partner
-- We Build Bridges for Your Success.
-- Business • Property • Local Representation
-- Supporting trust-focused paragraph
-
-V5.6 changes:
-- Reduced the visual size of the business/property/representation line
-- Removed repeated “in the UK”
-- Kept “Your Trusted UK Partner” as the dominant message
-- Kept the bridge slogan as supporting brand language
-- EN/TR switching retained
-- Cache version v56
+Final homepage refinements:
+- “Your Trusted UK Partner” remains the dominant hero message.
+- “Business • Property • Local Representation” reduced in size so it supports rather than competes.
+- Removed the repeated “From Türkiye to the UK / We Build Bridges for Your Success” block above How Can We Help You.
+- Updated London trust point to “Over 30 years of local knowledge and experience in London.”
+- Footer Services list expanded to all six main services.
+- EN/TR switching retained.
+- Cache version v57.
 
 Recommended commit message:
-Balance hero and emphasise Trusted UK Partner
+Final polish homepage hierarchy and footer

@@ -405,3 +405,28 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     line-height:1.45;
   }
 }
+
+
+/* V5.7 final polish */
+.hero-support-heading{
+  margin:0;
+  max-width:620px;
+  color:#fff;
+  font-family:Montserrat,Arial,sans-serif;
+  font-size:clamp(1rem,1.2vw,1.32rem);
+  line-height:1.4;
+  font-weight:700;
+  letter-spacing:.03em;
+}
+.services .section-rule-title{
+  margin-top:0;
+}
+.footer-grid > div:nth-child(2) a{
+  margin:5px 0;
+}
+@media(max-width:650px){
+  .hero-support-heading{
+    font-size:.96rem;
+    line-height:1.45;
+  }
+}
