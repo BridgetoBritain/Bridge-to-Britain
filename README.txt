@@ -1,16 +1,16 @@
-BRIDGE TO BRITAIN — VERSION 5.26
+BRIDGE TO BRITAIN — VERSION 5.27
 
-Why Bridge to Britain client-benefit refinement:
-- Main heading changed to “Your Interests Represented in the UK”.
-- New distance/confidence supporting paragraph.
-- Four benefit boxes changed to:
-  LOCAL PRESENCE
-  CLEAR COMMUNICATION
-  INDEPENDENT SUPPORT
-  ONE POINT OF CONTACT
+How We Work refinement:
+- Keeps the existing four-step visual layout.
+- New subtitle: “Simple, transparent and focused on moving your plans forward.”
+- Updated steps:
+  01 Free Consultation
+  02 Planning & Strategy
+  03 Action & Coordination
+  04 Delivery & Follow-Through
+- Wording now focuses on the process rather than repeating services or trust statements.
 - English/Turkish switching retained.
-- Existing layout, icons, colours, imagery and other website sections unchanged.
-- Cache version v526.
+- Cache version v527.
 
 Recommended commit:
-Refocus Why section on client benefits
+Refine How We Work process wording
