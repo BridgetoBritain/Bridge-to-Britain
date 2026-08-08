@@ -1,18 +1,11 @@
-BRIDGE TO BRITAIN — VERSION 5.28
+BRIDGE TO BRITAIN — VERSION 5.29
 
-WHO WE WORK WITH updated to a more persuasive, client-recognition approach.
+Startup wording refinement:
+Changed the introduction in “Is Bridge to Britain Right for You?” from
+“We work with...” to:
 
-Heading:
-Is Bridge to Britain Right for You?
+“Bridge to Britain supports businesses, entrepreneurs, property investors and overseas clients who need practical support, local knowledge and a reliable presence in the UK.”
 
-Six situations:
-1. Expanding into the UK
-2. Exploring UK Property
-3. Buying from Overseas
-4. Planning a Refurbishment or Project
-5. Looking After a Commercial Property
-6. Need a UK Presence Without a UK Office
-
+This describes the service confidently without implying an established client portfolio.
 English/Turkish switching retained.
-Existing website design retained.
-Cache version v528.
+Cache version v529.
