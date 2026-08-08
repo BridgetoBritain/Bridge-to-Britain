@@ -227,3 +227,12 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   .footer-wrap img{margin:auto}
   .legal-wrap{padding:28px}
 }
+
+
+/* V5.1 refined Why section */
+.why-intro{max-width:640px;font-size:1.03rem;line-height:1.75;color:rgba(255,255,255,.88)}
+.why-card{position:relative;padding:26px 24px 24px}
+.why-icon{width:42px;height:42px;display:grid;place-items:center;margin-bottom:16px;border-radius:50%;background:rgba(201,154,80,.10);border:1px solid rgba(201,154,80,.35)}
+.why-icon svg{width:24px;height:24px;fill:none;stroke:var(--gold-soft);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.why-card strong{font-size:1.04rem}
+.why-card span{line-height:1.62}
