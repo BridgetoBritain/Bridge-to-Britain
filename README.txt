@@ -1,18 +1,13 @@
-BRIDGE TO BRITAIN — VERSION 5.19
+BRIDGE TO BRITAIN — VERSION 5.20
 
-Client-focused Your UK Partner refinement:
-- Keeps the portrait and overall layout.
-- Uses “Your UK Partner” as the section eyebrow.
-- Leads with the client benefit rather than biography.
-- Uses normal navy body text for biography instead of large gold uppercase paragraphs.
-- Highlights 30+ years of UK experience and British/Turkish business understanding.
-- Adds confidence and decision-support language.
-- Closing statement updated to:
-  “From your first conversation to successful delivery, you have one trusted UK contact by your side.”
-- Retains the gold trust strip:
-  “UK Knowledge • Turkish Understanding • Practical Experience”
+Your UK Partner hierarchy correction:
+- Restored “YOUR UK PARTNER” above Ethan’s name.
+- Restored “FOUNDER & MANAGING DIRECTOR” directly below Ethan’s name.
+- Changed “Your trusted UK contact...” to “Your trusted UK partner...”.
+- Changed the closing line from “trusted UK contact” to “trusted UK partner”.
+- Retains the client-focused biography and trust strip.
 - English/Turkish language attributes retained.
-- Cache version v519.
+- Cache version v520.
 
 Recommended commit:
-Refine Your UK Partner section for client focus
+Restore Your UK Partner hierarchy and partner wording
