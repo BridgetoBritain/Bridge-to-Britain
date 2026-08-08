@@ -121,3 +121,118 @@ footer{background:var(--navy2);color:#fff;padding:34px 0 16px}.footer-grid{displ
   .service-icon{width:78px;height:78px}
   .service-icon svg{width:44px;height:44px}
 }
+
+
+/* V4.4 approved elegant service card system */
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+.service-card{
+  min-height:300px;
+  display:grid;
+  grid-template-columns:150px 1px minmax(0,1fr);
+  gap:22px;
+  align-items:center;
+  padding:30px 28px;
+  background:#fff;
+  border:1px solid rgba(201,155,84,.24);
+  border-radius:18px;
+  box-shadow:0 14px 34px rgba(7,31,56,.08);
+  transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+.service-card:hover{
+  transform:translateY(-6px);
+  border-color:rgba(201,155,84,.55);
+  box-shadow:0 20px 44px rgba(7,31,56,.12);
+}
+.service-card::before{
+  content:"";
+  width:1px;
+  height:72%;
+  background:rgba(201,155,84,.55);
+  grid-column:2;
+  grid-row:1;
+  justify-self:center;
+}
+.service-icon{
+  grid-column:1;
+  grid-row:1;
+  width:118px;
+  height:118px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#fbf6ec;
+  border:1px solid rgba(201,155,84,.18);
+  box-shadow:0 10px 24px rgba(7,31,56,.08);
+}
+.service-icon svg{
+  width:68px;
+  height:68px;
+  fill:none;
+  stroke:var(--navy);
+  stroke-width:2.9;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.service-icon svg path:last-child,
+.service-icon svg circle:last-child{
+  stroke:var(--gold);
+}
+.service-copy{
+  grid-column:3;
+  grid-row:1;
+  min-width:0;
+}
+.service-copy h4{
+  margin:0 0 12px;
+  color:var(--navy);
+  font-size:1.05rem;
+  font-weight:800;
+  line-height:1.25;
+  text-transform:uppercase;
+}
+.service-copy h4::after{
+  content:"";
+  display:block;
+  width:36px;
+  height:2px;
+  background:var(--gold);
+  margin-top:10px;
+}
+.service-copy p{
+  margin:0;
+  color:var(--muted);
+  font-size:.93rem;
+  line-height:1.7;
+}
+.service-copy a{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:16px;
+  color:var(--navy);
+  font-size:.82rem;
+  font-weight:800;
+  text-decoration:none;
+}
+.service-copy a:hover{
+  color:var(--gold);
+}
+
+@media(max-width:1050px){
+  .service-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:650px){
+  .service-grid{grid-template-columns:1fr}
+  .service-card{
+    grid-template-columns:88px 1px minmax(0,1fr);
+    gap:16px;
+    min-height:0;
+    padding:22px 18px;
+  }
+  .service-icon{width:78px;height:78px}
+  .service-icon svg{width:46px;height:46px}
+}
