@@ -13,3 +13,10 @@ How We Work refined:
 
 Recommended commit message:
 Refine How We Work journey section
+
+
+V5.3 TRUSTED UK PARTNER
+- Main positioning: Your Trusted UK Partner
+- Stronger trust-led Why section
+- Business, property and local representation retained
+- EN/TR switching retained
