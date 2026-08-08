@@ -1,11 +1,16 @@
-BRIDGE TO BRITAIN — VERSION 5.22
+BRIDGE TO BRITAIN — VERSION 5.26
 
-Small biography correction:
-- Changed the beginning of the sentence from “with a background...” to “With a background...”
-- All other wording, colours, layout and the original portrait remain unchanged.
-- Cache version updated to v522.
+Why Bridge to Britain client-benefit refinement:
+- Main heading changed to “Your Interests Represented in the UK”.
+- New distance/confidence supporting paragraph.
+- Four benefit boxes changed to:
+  LOCAL PRESENCE
+  CLEAR COMMUNICATION
+  INDEPENDENT SUPPORT
+  ONE POINT OF CONTACT
+- English/Turkish switching retained.
+- Existing layout, icons, colours, imagery and other website sections unchanged.
+- Cache version v526.
 
 Recommended commit:
-Capitalise With in About biography
-
-Latest update: refined the Meet Ethan paragraph to distinguish professional background from property search & investment experience.
+Refocus Why section on client benefits
