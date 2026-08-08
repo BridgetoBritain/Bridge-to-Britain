@@ -1,10 +1,15 @@
-BRIDGE TO BRITAIN — VERSION 5.15
+BRIDGE TO BRITAIN — VERSION 5.16
 
-Final service-positioning wording:
-- Hero: Business Expansion • Property Search & Investment • Local Representation
-- Meet Ethan: Bridge to Britain is your trusted UK partner for business expansion, property search & investment and local representation.
-- Turkish Meet Ethan translation updated.
-- No layout, image, spacing or typography changes.
+Services CTA refinement:
+- Added a client-conversation call-to-action beneath the six service cards.
+- New prompt:
+  “Have a UK project or opportunity in mind?”
+- Supporting line:
+  “Tell us what you're looking to achieve and we'll explain how Bridge to Britain can support you.”
+- Added “Book a Free Consultation” button linking to the contact section.
+- EN/TR translation retained.
+- No changes to the six service cards themselves.
+- Cache version v516.
 
 Recommended commit message:
-Align hero and Meet Ethan with property search and investment
+Add project conversation CTA below services

@@ -605,3 +605,48 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     white-space:normal;
   }
 }
+
+
+/* V5.16 — project conversation CTA beneath services */
+.services-cta{
+  max-width:920px;
+  margin:46px auto 0;
+  padding:30px 34px 32px;
+  text-align:center;
+  background:var(--cream);
+  border:1px solid var(--line);
+  border-radius:18px;
+  box-shadow:0 12px 30px rgba(6,29,52,.06);
+}
+.services-cta-eyebrow{
+  margin:0 0 9px;
+  color:var(--ink);
+  font-size:1.28rem;
+  line-height:1.35;
+  font-weight:800;
+}
+.services-cta-copy{
+  max-width:700px;
+  margin:0 auto 20px;
+  color:var(--muted);
+  font-size:1rem;
+  line-height:1.65;
+}
+.services-cta-button{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  min-width:220px;
+}
+@media(max-width:650px){
+  .services-cta{
+    margin-top:32px;
+    padding:24px 20px 26px;
+  }
+  .services-cta-eyebrow{
+    font-size:1.12rem;
+  }
+  .services-cta-copy{
+    font-size:.95rem;
+  }
+}
