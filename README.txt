@@ -1,16 +1,18 @@
-BRIDGE TO BRITAIN — VERSION 5.27
+BRIDGE TO BRITAIN — VERSION 5.28
 
-How We Work refinement:
-- Keeps the existing four-step visual layout.
-- New subtitle: “Simple, transparent and focused on moving your plans forward.”
-- Updated steps:
-  01 Free Consultation
-  02 Planning & Strategy
-  03 Action & Coordination
-  04 Delivery & Follow-Through
-- Wording now focuses on the process rather than repeating services or trust statements.
-- English/Turkish switching retained.
-- Cache version v527.
+WHO WE WORK WITH updated to a more persuasive, client-recognition approach.
 
-Recommended commit:
-Refine How We Work process wording
+Heading:
+Is Bridge to Britain Right for You?
+
+Six situations:
+1. Expanding into the UK
+2. Exploring UK Property
+3. Buying from Overseas
+4. Planning a Refurbishment or Project
+5. Looking After a Commercial Property
+6. Need a UK Presence Without a UK Office
+
+English/Turkish switching retained.
+Existing website design retained.
+Cache version v528.
