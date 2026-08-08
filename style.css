@@ -363,3 +363,45 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     font-size:1.1rem;
   }
 }
+
+
+/* V5.6 hero hierarchy balance */
+.trusted-partner-main{
+  max-width:680px;
+  margin:8px 0 10px;
+  font-size:clamp(3rem,4.8vw,5rem);
+  line-height:.96;
+}
+.hero-bridge-support{
+  margin:0 0 20px;
+  font-size:clamp(1.35rem,2vw,2rem);
+  line-height:1.15;
+}
+.hero-support-heading{
+  margin:0;
+  max-width:650px;
+  color:#fff;
+  font-family:Montserrat,Arial,sans-serif;
+  font-size:clamp(1.15rem,1.55vw,1.65rem);
+  line-height:1.35;
+  font-weight:700;
+  letter-spacing:.01em;
+}
+.hero-lead{
+  max-width:650px;
+  margin-top:18px;
+  font-size:.98rem;
+  line-height:1.7;
+}
+@media(max-width:650px){
+  .trusted-partner-main{
+    font-size:clamp(2.45rem,11vw,3.4rem);
+  }
+  .hero-bridge-support{
+    font-size:1.28rem;
+  }
+  .hero-support-heading{
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+}

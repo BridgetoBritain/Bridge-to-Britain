@@ -1,18 +1,24 @@
-BRIDGE TO BRITAIN — VERSION 5.5
+BRIDGE TO BRITAIN — VERSION 5.6
 
-PRIMARY BRAND POSITIONING:
+HERO BALANCE UPDATE
+
+Primary positioning:
 YOUR TRUSTED UK PARTNER
 
-V5.5 update:
-- “Your Trusted UK Partner” is now the largest and most prominent hero message.
-- “From Türkiye to the UK.” remains above it as the geographic positioning.
-- “We Build Bridges for Your Success.” remains as the supporting slogan.
-- Hero support line now explains: Business, Property & Local Representation in the UK.
-- Hero paragraph reinforces trusted local support on the ground.
-- Meet Ethan now directly supports the trusted-partner positioning.
-- Why section now reads “Your UK Partner on the Ground” to reinforce the message without exact duplication.
-- EN/TR switching retained.
-- Cache version v55.
+Hero hierarchy:
+- From Türkiye to the UK.
+- Your Trusted UK Partner
+- We Build Bridges for Your Success.
+- Business • Property • Local Representation
+- Supporting trust-focused paragraph
+
+V5.6 changes:
+- Reduced the visual size of the business/property/representation line
+- Removed repeated “in the UK”
+- Kept “Your Trusted UK Partner” as the dominant message
+- Kept the bridge slogan as supporting brand language
+- EN/TR switching retained
+- Cache version v56
 
 Recommended commit message:
-Make Your Trusted UK Partner the primary homepage message
+Balance hero and emphasise Trusted UK Partner
