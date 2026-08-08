@@ -491,3 +491,49 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     line-height:1.5;
   }
 }
+
+
+/* V5.10 — give the wording priority over the hero image */
+@media(min-width:1100px){
+  .hero{
+    grid-template-columns:52% 48%;
+  }
+
+  .hero-copy{
+    padding-right:54px;
+  }
+
+  .hero-media{
+    position:relative;
+    overflow:hidden;
+  }
+
+  .hero-media::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(4,24,42,.10);
+    pointer-events:none;
+  }
+
+  .hero-media img{
+    filter:saturate(.90) brightness(.94);
+  }
+}
+
+@media(min-width:1450px){
+  .hero{
+    grid-template-columns:53% 47%;
+  }
+}
+
+/* Keep the image supportive rather than dominant on mid-size screens */
+@media(min-width:900px) and (max-width:1099px){
+  .hero{
+    grid-template-columns:51% 49%;
+  }
+
+  .hero-media img{
+    filter:saturate(.92) brightness(.96);
+  }
+}
