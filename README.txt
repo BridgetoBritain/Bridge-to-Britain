@@ -1,14 +1,15 @@
-BRIDGE TO BRITAIN — VERSION 5.1
+BRIDGE TO BRITAIN — VERSION 5.2
 
-Refined Why Choose Bridge to Britain:
-- New benefit-focused intro
-- London Since 1995
-- Bilingual Support
-- Commercial Experience
-- Trusted Local Partner
-- Added subtle gold line icons
+How We Work refined:
+- New heading: Your Journey with Bridge to Britain
+- New subtitle: From your first conversation to successful delivery.
+- More persuasive client-focused copy for all four steps
+- Slightly smaller main heading
+- Larger process icons
+- More breathing room inside cards
+- Lighter, subtler arrows
 - EN/TR translations retained
-- Cache version v51
+- Cache version v52
 
 Recommended commit message:
-Refine Why Choose Bridge to Britain section
+Refine How We Work journey section
