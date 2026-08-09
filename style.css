@@ -846,3 +846,29 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   font-size:.80rem;
   line-height:1.5;
 }
+
+/* V5.32 — Make the services CTA conversion button clearly visible */
+.services-cta .services-cta-button,
+.services-cta .btn.btn-gold{
+  display:inline-flex !important;
+  align-items:center;
+  justify-content:center;
+  min-width:230px;
+  min-height:52px;
+  padding:0 24px;
+  background:var(--gold) !important;
+  color:var(--navy) !important;
+  border:1px solid var(--gold) !important;
+  border-radius:0;
+  text-decoration:none !important;
+  font-weight:800;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+.services-cta .services-cta-button:hover,
+.services-cta .btn.btn-gold:hover{
+  background:var(--gold-soft) !important;
+  border-color:var(--gold-soft) !important;
+  color:var(--navy) !important;
+  transform:translateY(-2px);
+}

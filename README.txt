@@ -1,13 +1,17 @@
-BRIDGE TO BRITAIN — VERSION 5.30
+BRIDGE TO BRITAIN — VERSION 5.32
 
-Contact section refinement:
-- Intro changed to:
-  “Tell me what you're looking to achieve in the UK and I'll explain how Bridge to Britain may be able to support your plans.”
-- Telephone is now marked optional.
-- Button changed to “Continue by Email”.
-- Added reassurance:
-  “No obligation. Your enquiry will be treated confidentially.”
-- Existing contact details, QR code, layout and EN/TR switching retained.
-- Cache version v530.
+Services section startup refinement:
+- Property Acquisition Support:
+  “Independent property viewing support, due diligence and purchase coordination.”
+- Refurbishment Coordination:
+  “We coordinate contractors, quotations, programmes and quality from start to finish.”
+- Commercial Building Consultancy wording retained.
+- Local Representation wording retained.
+- Services CTA copy refined to:
+  “Tell us what you're looking to achieve and we'll explain how Bridge to Britain can support your plans.”
+- “Book a Free Consultation” button is now clearly visible in gold with navy text.
+- EN/TR switching retained.
+- Cache version v532.
 
-Form behavior detected: mailto/email-client flow.
+Recommended commit:
+Refine startup service wording and CTA visibility
