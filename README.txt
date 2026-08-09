@@ -1,11 +1,7 @@
-BRIDGE TO BRITAIN — VERSION 5.34
+BRIDGE TO BRITAIN — VERSION 5.35
 
-FIX:
-- Restored the complete “Your Interests Represented in the UK” section.
-- Removed only the duplicated gold paragraph at the top.
-- Preserved the heading, white explanatory paragraph and all four benefit cards.
-- No other website content or design intentionally changed.
-- Cache version v534.
-
-Recommended commit:
-Fix Why section and remove duplicate copy safely
+CHANGE:
+- Lightened only the “Your Interests Represented in the UK” section.
+- Section background changed to a softer medium navy-blue.
+- Benefit cards also made slightly lighter for contrast.
+- Text, layout, wording and all other website sections remain unchanged.

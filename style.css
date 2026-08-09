@@ -872,3 +872,14 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   color:var(--navy) !important;
   transform:translateY(-2px);
 }
+
+
+/* V5.35 — lighter Why / interests section only */
+#why {
+  background: #12304A !important;
+}
+#why .why-card,
+#why .benefit-card,
+#why .feature-card {
+  background: #1B3B56 !important;
+}
