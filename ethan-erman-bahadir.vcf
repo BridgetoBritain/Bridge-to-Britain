@@ -2,10 +2,11 @@ BEGIN:VCARD
 VERSION:3.0
 N:Bahadir;Ethan Erman;;;
 FN:Ethan Erman Bahadir
-ORG:Bridge to Britain
+ORG:Bridge to England
 TITLE:Founder & Managing Director
 TEL;TYPE=CELL:+447776251109
-EMAIL:erman@bridgetobritain.co.uk
-URL:https://www.linkedin.com/in/ethan-erman-bahadir-b81787232/
+EMAIL:info@bridgetoengland.co.uk
+URL:https://bridgetoengland.co.uk
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/ethan-erman-bahadir-b81787232/
 ADR;TYPE=WORK:;;London;;;United Kingdom
 END:VCARD
