@@ -1,15 +1,14 @@
-BRIDGE TO BRITAIN — VERSION 5.43
+BRIDGE TO ENGLAND — VERSION 5.44
 
-Your Interests section:
-- Completely different icon treatment.
-- Removed navy circular icon buttons.
-- Icons now sit inside small warm-gold rounded-square tiles.
-- Navy line icons provide stronger contrast.
-- Removed large cards and cross-shaped dividers.
-- Each feature is an open horizontal row with a subtle gold underline.
-- Existing wording and overall light background retained.
-- Journey section unchanged.
-- Cache version v543.
+Brand migration from Bridge to Britain:
+- Updated all visible Bridge to Britain wording to Bridge to England.
+- Updated page title and meta description.
+- Updated English and Turkish data attributes containing the old brand.
+- Replaced old image-logo references with a clean Bridge to England wordmark.
+- Added "YOUR TRUSTED UK PARTNER" beneath the wordmark.
+- Updated business email to info@bridgetoengland.co.uk.
+- Retained the approved V5.43 Interests icon-tile design and overall layout.
+- No DNS or GitHub Pages custom-domain changes are included in this package.
 
 Recommended commit:
-Use gold icon tiles for Interests section
+Rebrand website to Bridge to England V5.44
