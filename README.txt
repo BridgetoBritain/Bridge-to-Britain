@@ -1,16 +1,16 @@
-BRIDGE TO BRITAIN — VERSION 5.38
+BRIDGE TO BRITAIN — VERSION 5.40
 
-FIXED:
-The descriptive wording in the four “Your Interests Represented in the UK”
-cards is stored in <span> elements. The previous CSS fix targeted <p> elements,
-so the text remained white/invisible on the light cards.
+How We Work wording refinement for startup credibility:
+- 01 Free Consultation retained.
+- 02 Planning & Strategy retained.
+- 03 wording changed to:
+  “We put the plan into action, coordinate the right people and keep you informed as things progress.”
+- 04 wording changed to:
+  “We coordinate the agreed actions through to completion and remain available when further support is needed.”
+- This avoids overstating control over third-party professionals and keeps the process credible for a new consultancy.
+- EN/TR switching retained.
+- No design/layout changes.
+- Cache version v540.
 
-V5.38 explicitly styles .why-card span with visible grey-blue text.
-
-Card wording:
-Local Presence — Someone on the ground when you cannot be here.
-Clear Communication — Straightforward communication in English and Turkish.
-Independent Support — Practical guidance focused on your objectives and interests.
-One Point of Contact — One trusted person helping coordinate your UK requirements from start to finish.
-
-Light section background retained.
+Recommended commit:
+Refine How We Work wording for startup credibility
