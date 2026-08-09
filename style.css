@@ -1067,3 +1067,99 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
     border-bottom: 0 !important;
   }
 }
+
+
+/* V5.43 — DISTINCT alternative for "Your Interests" items
+   Small gold rounded-square icon tiles + open horizontal rows.
+   Deliberately avoids circles and card boxes. */
+#why .why-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 26px 46px !important;
+  background: transparent !important;
+}
+
+#why .interests-feature {
+  display: grid !important;
+  grid-template-columns: 64px minmax(0, 1fr) !important;
+  grid-template-rows: auto auto !important;
+  column-gap: 20px !important;
+  row-gap: 7px !important;
+  align-items: start !important;
+  min-height: 128px !important;
+  padding: 18px 0 24px !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-bottom: 2px solid rgba(201,155,83,.34) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+#why .interests-feature .why-icon,
+#why .interests-feature .icon,
+#why .interests-feature [class*="icon"] {
+  grid-column: 1 !important;
+  grid-row: 1 / span 2 !important;
+  width: 56px !important;
+  height: 56px !important;
+  min-width: 56px !important;
+  min-height: 56px !important;
+  margin: 0 !important;
+  border-radius: 14px !important;
+  background: #F1E2C6 !important;
+  border: 1px solid #D4A85E !important;
+  box-shadow: 0 8px 20px rgba(8,35,63,.07) !important;
+  color: #08233F !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#why .interests-feature .why-icon svg,
+#why .interests-feature .icon svg,
+#why .interests-feature [class*="icon"] svg {
+  stroke: #08233F !important;
+  color: #08233F !important;
+  opacity: 1 !important;
+  width: 25px !important;
+  height: 25px !important;
+}
+
+#why .interests-feature strong,
+#why .interests-feature h3 {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  color: #08233F !important;
+  font-size: 1.08rem !important;
+  line-height: 1.25 !important;
+  margin: 2px 0 0 !important;
+  align-self: start !important;
+}
+
+#why .interests-feature span,
+#why .interests-feature p {
+  grid-column: 2 !important;
+  grid-row: 2 !important;
+  color: #66778A !important;
+  font-size: .96rem !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+  max-width: 34ch !important;
+}
+
+/* Kill older cross-divider treatment */
+#why .interests-feature:nth-child(odd),
+#why .interests-feature:nth-child(-n+2) {
+  border-right: 0 !important;
+}
+
+@media (max-width: 900px) {
+  #why .why-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  #why .interests-feature {
+    grid-template-columns: 60px minmax(0,1fr) !important;
+    padding: 18px 0 22px !important;
+  }
+}

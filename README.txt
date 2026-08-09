@@ -1,15 +1,15 @@
-BRIDGE TO BRITAIN — VERSION 5.42
+BRIDGE TO BRITAIN — VERSION 5.43
 
-Interests section redesign:
-- Replaced large white feature boxes with a cleaner premium 2x2 layout.
-- Navy circular icons with gold line icons.
-- Headings and body text sit beside each icon.
-- Added subtle gold divider lines between items.
-- Existing wording retained.
-- Light warm section background retained.
-- Mobile layout stacks cleanly.
-- No changes to the Journey section or other website content.
-- Cache version v542.
+Your Interests section:
+- Completely different icon treatment.
+- Removed navy circular icon buttons.
+- Icons now sit inside small warm-gold rounded-square tiles.
+- Navy line icons provide stronger contrast.
+- Removed large cards and cross-shaped dividers.
+- Each feature is an open horizontal row with a subtle gold underline.
+- Existing wording and overall light background retained.
+- Journey section unchanged.
+- Cache version v543.
 
 Recommended commit:
-Redesign Interests section with premium feature layout
+Use gold icon tiles for Interests section
