@@ -1,4 +1,3 @@
-
 const menuToggle = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('.main-nav');
 if (menuToggle && mainNav) {
@@ -19,7 +18,7 @@ document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
 const languageButton = document.querySelector('.language-toggle');
 const translatable = document.querySelectorAll('[data-en][data-tr]');
-let currentLanguage = localStorage.getItem('btb-language') || 'en';
+let currentLanguage = localStorage.getItem('bte-language') || 'en';
 
 function applyLanguage(lang) {
   currentLanguage = lang;
@@ -29,11 +28,13 @@ function applyLanguage(lang) {
     if (value) el.textContent = value;
   });
   if (languageButton) languageButton.textContent = lang === 'en' ? 'TR' : 'EN';
-  localStorage.setItem('btb-language', lang);
+  localStorage.setItem('bte-language', lang);
 }
+
 if (languageButton) {
   languageButton.addEventListener('click', () => applyLanguage(currentLanguage === 'en' ? 'tr' : 'en'));
 }
+
 applyLanguage(currentLanguage);
 
 const form = document.getElementById('contact-form');
@@ -44,8 +45,9 @@ if (form) {
     const email = document.getElementById('email')?.value.trim() || '';
     const phone = document.getElementById('phone')?.value.trim() || '';
     const message = document.getElementById('message')?.value.trim() || '';
-    const subject = encodeURIComponent(`Bridge to Britain enquiry from ${name}`);
+
+    const subject = encodeURIComponent(`Bridge to England enquiry from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nTelephone: ${phone}\n\n${message}`);
-    window.location.href = `mailto:erman@bridgetobritain.co.uk?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@bridgetoengland.co.uk?subject=${subject}&body=${body}`;
   });
 }
