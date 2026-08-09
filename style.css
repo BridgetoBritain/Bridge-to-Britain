@@ -939,3 +939,19 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
 #why .why-card strong {
   color: #08233F !important;
 }
+
+/* V5.39 — stronger icon visibility while keeping the light section */
+#why .why-card .why-icon,
+#why .why-card .icon,
+#why .why-card [class*="icon"] {
+  background: #F3E7D1 !important;
+  border-color: #D2A458 !important;
+  color: #B98535 !important;
+}
+#why .why-card .why-icon svg,
+#why .why-card .icon svg,
+#why .why-card [class*="icon"] svg {
+  stroke: #B98535 !important;
+  color: #B98535 !important;
+  opacity: 1 !important;
+}
