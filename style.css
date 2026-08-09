@@ -978,3 +978,92 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
 #how-we-work {
   background: #fbf8f2 !important;
 }
+
+
+/* V5.42 — premium Interests feature layout */
+.interests-section .why-grid,
+#why .why-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0 !important;
+  background: transparent !important;
+}
+
+#why .interests-feature {
+  display: grid !important;
+  grid-template-columns: 70px 1fr !important;
+  column-gap: 20px !important;
+  align-items: start !important;
+  min-height: 150px !important;
+  padding: 28px 30px !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  position: relative !important;
+}
+
+#why .interests-feature:nth-child(odd) {
+  border-right: 1px solid rgba(201,155,83,.28) !important;
+}
+#why .interests-feature:nth-child(-n+2) {
+  border-bottom: 1px solid rgba(201,155,83,.28) !important;
+}
+
+#why .interests-feature .why-icon,
+#why .interests-feature .icon,
+#why .interests-feature [class*="icon"] {
+  width: 58px !important;
+  height: 58px !important;
+  min-width: 58px !important;
+  min-height: 58px !important;
+  border-radius: 50% !important;
+  background: #08233F !important;
+  border: 1px solid #C99B53 !important;
+  color: #D5A85E !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  grid-row: 1 / span 2 !important;
+  margin: 0 !important;
+}
+
+#why .interests-feature .why-icon svg,
+#why .interests-feature .icon svg,
+#why .interests-feature [class*="icon"] svg {
+  stroke: #D5A85E !important;
+  color: #D5A85E !important;
+  opacity: 1 !important;
+}
+
+#why .interests-feature strong,
+#why .interests-feature h3 {
+  color: #08233F !important;
+  font-size: 1.08rem !important;
+  line-height: 1.25 !important;
+  margin: 2px 0 8px !important;
+  align-self: end !important;
+}
+
+#why .interests-feature span,
+#why .interests-feature p {
+  color: #647386 !important;
+  font-size: .95rem !important;
+  line-height: 1.58 !important;
+  margin: 0 !important;
+  max-width: 30ch !important;
+}
+
+@media (max-width: 900px) {
+  .interests-section .why-grid,
+  #why .why-grid {
+    grid-template-columns: 1fr !important;
+  }
+  #why .interests-feature {
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(201,155,83,.28) !important;
+  }
+  #why .interests-feature:last-child {
+    border-bottom: 0 !important;
+  }
+}
