@@ -910,3 +910,17 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
 #why .feature-card p {
   color: #647386 !important;
 }
+
+
+/* V5.37 — restore visible body wording inside the four Interests cards */
+#why .why-card p,
+#why .benefit-card p,
+#why .feature-card p,
+#why .why-card .card-text,
+#why .benefit-card .card-text,
+#why .feature-card .card-text {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #647386 !important;
+}

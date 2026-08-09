@@ -1,9 +1,13 @@
-BRIDGE TO BRITAIN — VERSION 5.36
+BRIDGE TO BRITAIN — VERSION 5.37
 
-CHANGE:
-- Changed the “Your Interests Represented in the UK” section from blue to the same warm light/off-white style used across the website.
-- Heading changed to navy for readability.
-- Paragraph changed to navy.
-- Four cards changed to white with subtle warm-gold borders.
-- Card headings are navy; supporting text uses the website's softer grey-blue.
-- Wording and layout remain unchanged.
+FIX:
+Restored the missing descriptive wording inside all four cards in the
+“Your Interests Represented in the UK” section.
+
+Expected wording:
+Local Presence — Someone on the ground when you cannot be here.
+Clear Communication — Straightforward communication in English and Turkish.
+Independent Support — Practical guidance focused on your objectives and interests.
+One Point of Contact — One trusted person helping coordinate your UK requirements from start to finish.
+
+The light section styling from V5.36 is retained.
