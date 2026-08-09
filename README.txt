@@ -1,4 +1,4 @@
-BRIDGE TO ENGLAND — VERSION 5.44
+BRIDGE TO ENGLAND — VERSION 5.45
 
 Brand migration from Bridge to Britain:
 - Updated all visible Bridge to Britain wording to Bridge to England.
@@ -12,3 +12,5 @@ Brand migration from Bridge to Britain:
 
 Recommended commit:
 Rebrand website to Bridge to England V5.44
+
+- Contact form label updated from “Telephone (optional)” to “Telephone”.
