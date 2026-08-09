@@ -1,16 +1,11 @@
-BRIDGE TO BRITAIN — VERSION 5.40
+BRIDGE TO BRITAIN — VERSION 5.41
 
-How We Work wording refinement for startup credibility:
-- 01 Free Consultation retained.
-- 02 Planning & Strategy retained.
-- 03 wording changed to:
-  “We put the plan into action, coordinate the right people and keep you informed as things progress.”
-- 04 wording changed to:
-  “We coordinate the agreed actions through to completion and remain available when further support is needed.”
-- This avoids overstating control over third-party professionals and keeps the process credible for a new consultancy.
-- EN/TR switching retained.
-- No design/layout changes.
-- Cache version v540.
+Visual separation update:
+- “Your Interests Represented in the UK” now uses a slightly deeper warm neutral background.
+- “Your Journey with Bridge to Britain” remains on the lighter cream background.
+- Added a subtle gold divider accent between the two sections.
+- No wording, cards, icons or layout changed.
+- Cache version v541.
 
 Recommended commit:
-Refine How We Work wording for startup credibility
+Separate Interests and Journey sections visually

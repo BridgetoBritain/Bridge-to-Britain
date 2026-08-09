@@ -955,3 +955,26 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   color: #B98535 !important;
   opacity: 1 !important;
 }
+
+
+/* V5.41 — visually separate adjacent Interests and Journey sections */
+.interests-section {
+  background: #f4f1eb !important;
+  position: relative;
+  border-bottom: 1px solid rgba(201, 155, 83, 0.28);
+}
+.interests-section::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  width: 84px;
+  height: 2px;
+  background: #c99b53;
+  opacity: 0.72;
+}
+#process,
+#how-we-work {
+  background: #fbf8f2 !important;
+}
