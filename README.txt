@@ -1,13 +1,16 @@
-BRIDGE TO BRITAIN — VERSION 5.37
+BRIDGE TO BRITAIN — VERSION 5.38
 
-FIX:
-Restored the missing descriptive wording inside all four cards in the
-“Your Interests Represented in the UK” section.
+FIXED:
+The descriptive wording in the four “Your Interests Represented in the UK”
+cards is stored in <span> elements. The previous CSS fix targeted <p> elements,
+so the text remained white/invisible on the light cards.
 
-Expected wording:
+V5.38 explicitly styles .why-card span with visible grey-blue text.
+
+Card wording:
 Local Presence — Someone on the ground when you cannot be here.
 Clear Communication — Straightforward communication in English and Turkish.
 Independent Support — Practical guidance focused on your objectives and interests.
 One Point of Contact — One trusted person helping coordinate your UK requirements from start to finish.
 
-The light section styling from V5.36 is retained.
+Light section background retained.

@@ -924,3 +924,18 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
   opacity: 1 !important;
   color: #647386 !important;
 }
+
+
+/* V5.38 — FIX: descriptive card text is stored in <span>, not <p> */
+#why .why-card span {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #647386 !important;
+  font-size: .92rem !important;
+  line-height: 1.62 !important;
+  margin-top: 4px !important;
+}
+#why .why-card strong {
+  color: #08233F !important;
+}
