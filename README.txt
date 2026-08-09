@@ -1,15 +1,11 @@
-BRIDGE TO BRITAIN — VERSION 5.33
+BRIDGE TO BRITAIN — VERSION 5.34
 
-Why Bridge to Britain cleanup:
-- Removed the duplicated gold paragraph above “Your Interests Represented in the UK”.
-- Kept the main heading and the white supporting paragraph underneath.
-- Kept all four benefit cards unchanged:
-  Local Presence
-  Clear Communication
-  Independent Support
-  One Point of Contact
-- All other website sections, colours, images, layout and EN/TR switching retained.
-- Cache version v533.
+FIX:
+- Restored the complete “Your Interests Represented in the UK” section.
+- Removed only the duplicated gold paragraph at the top.
+- Preserved the heading, white explanatory paragraph and all four benefit cards.
+- No other website content or design intentionally changed.
+- Cache version v534.
 
 Recommended commit:
-Remove duplicate Why-section paragraph
+Fix Why section and remove duplicate copy safely
