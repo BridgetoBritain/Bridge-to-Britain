@@ -883,3 +883,30 @@ footer{background:var(--navy-2);color:#fff;padding:34px 0 16px}
 #why .feature-card {
   background: #1B3B56 !important;
 }
+
+
+/* V5.36 — match the Interests section with the website's light content sections */
+#why {
+  background: #FBF8F2 !important;
+  color: #08233F !important;
+}
+#why h2,
+#why p {
+  color: #08233F !important;
+}
+#why .why-card,
+#why .benefit-card,
+#why .feature-card {
+  background: #FFFFFF !important;
+  border-color: #E7D6B8 !important;
+}
+#why .why-card h3,
+#why .benefit-card h3,
+#why .feature-card h3 {
+  color: #08233F !important;
+}
+#why .why-card p,
+#why .benefit-card p,
+#why .feature-card p {
+  color: #647386 !important;
+}
