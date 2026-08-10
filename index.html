@@ -61,6 +61,66 @@
 }
 </script>
 
+
+<style id="bridge-to-england-header-visibility-fix">
+/* V5.51 — make the Bridge to England wordmark clearly visible.
+   No bridge graphic above the name. */
+.site-header .brand-wordmark,
+.site-header .brand {
+    background: none !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    overflow: visible !important;
+}
+.site-header .brand-wordmark::before,
+.site-header .brand-wordmark::after,
+.site-header .brand::before,
+.site-header .brand::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+}
+.site-header .brand-wordmark img,
+.site-header .brand img {
+    display: none !important;
+}
+.site-header .brand-main {
+    display: block !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: clamp(1.42rem, 1.65vw, 2rem) !important;
+    font-weight: 700 !important;
+    line-height: 1.04 !important;
+    letter-spacing: 0.055em !important;
+    white-space: nowrap !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,.18) !important;
+}
+.site-header .brand-sub {
+    display: block !important;
+    margin-top: .42rem !important;
+    color: #d2a154 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    font-size: clamp(.60rem, .72vw, .76rem) !important;
+    font-weight: 700 !important;
+    letter-spacing: .18em !important;
+    line-height: 1.1 !important;
+    white-space: nowrap !important;
+}
+@media (max-width: 900px) {
+    .site-header .brand-main {
+        font-size: 1.32rem !important;
+        white-space: normal !important;
+    }
+    .site-header .brand-sub {
+        font-size: .58rem !important;
+        white-space: normal !important;
+    }
+}
+</style>
+
 </head>
 <body>
 <header class="site-header">
