@@ -62,60 +62,144 @@
 </script>
 
 
-<style id="bridge-to-england-header-visibility-fix">
-/* V5.51 — make the Bridge to England wordmark clearly visible.
-   No bridge graphic above the name. */
-.site-header .brand-wordmark,
-.site-header .brand {
+
+<style id="bridge-to-england-header-clean-fix">
+/* V5.52 — clean, balanced desktop header */
+.site-header {
+    background: #071b31 !important;
+}
+.site-header .nav-wrap {
+    display: grid !important;
+    grid-template-columns: minmax(300px, 360px) 1fr auto !important;
+    align-items: center !important;
+    gap: 28px !important;
+    min-height: 118px !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.site-header .brand,
+.site-header .brand-wordmark {
+    display: block !important;
+    width: auto !important;
+    min-width: 0 !important;
     background: none !important;
     background-image: none !important;
     text-decoration: none !important;
-    overflow: visible !important;
 }
+.site-header .brand::before,
+.site-header .brand::after,
 .site-header .brand-wordmark::before,
 .site-header .brand-wordmark::after,
-.site-header .brand::before,
-.site-header .brand::after {
+.site-header .brand img,
+.site-header .brand-wordmark img {
     content: none !important;
     display: none !important;
-    background: none !important;
 }
-.site-header .brand-wordmark img,
-.site-header .brand img {
-    display: none !important;
-}
+
 .site-header .brand-main {
     display: block !important;
     color: #ffffff !important;
-    opacity: 1 !important;
-    visibility: visible !important;
     font-family: Georgia, "Times New Roman", serif !important;
-    font-size: clamp(1.42rem, 1.65vw, 2rem) !important;
+    font-size: 1.72rem !important;
     font-weight: 700 !important;
-    line-height: 1.04 !important;
-    letter-spacing: 0.055em !important;
+    line-height: 1.05 !important;
+    letter-spacing: .045em !important;
     white-space: nowrap !important;
-    text-shadow: 0 1px 1px rgba(0,0,0,.18) !important;
+    opacity: 1 !important;
 }
 .site-header .brand-sub {
     display: block !important;
-    margin-top: .42rem !important;
+    margin-top: 9px !important;
     color: #d2a154 !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    font-size: clamp(.60rem, .72vw, .76rem) !important;
+    font-size: .67rem !important;
     font-weight: 700 !important;
     letter-spacing: .18em !important;
-    line-height: 1.1 !important;
+    line-height: 1.05 !important;
+    white-space: nowrap !important;
+    opacity: 1 !important;
+}
+
+.site-header .main-nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 24px !important;
+    flex-wrap: nowrap !important;
+    min-width: 0 !important;
+}
+.site-header .main-nav > a:not(.nav-cta) {
+    color: #ffffff !important;
+    font-size: .94rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    padding: 6px 0 !important;
+}
+
+.site-header .language-toggle,
+.site-header .nav-cta {
+    flex: 0 0 auto !important;
+}
+.site-header .language-toggle {
+    min-width: 58px !important;
+    height: 48px !important;
+    padding: 0 14px !important;
+}
+.site-header .nav-cta {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 52px !important;
+    padding: 0 18px !important;
+    font-size: .91rem !important;
+    line-height: 1.15 !important;
     white-space: nowrap !important;
 }
-@media (max-width: 900px) {
+
+/* Prevent individual nav labels from wrapping */
+.site-header .main-nav a br {
+    display: none !important;
+}
+
+/* Slightly tighten at medium-large desktop widths */
+@media (max-width: 1320px) {
+    .site-header .nav-wrap {
+        grid-template-columns: minmax(260px, 320px) 1fr auto !important;
+        gap: 20px !important;
+    }
+    .site-header .brand-main {
+        font-size: 1.50rem !important;
+    }
+    .site-header .brand-sub {
+        font-size: .61rem !important;
+    }
+    .site-header .main-nav {
+        gap: 17px !important;
+    }
+    .site-header .main-nav > a:not(.nav-cta) {
+        font-size: .86rem !important;
+    }
+    .site-header .nav-cta {
+        font-size: .84rem !important;
+        padding: 0 14px !important;
+    }
+}
+
+/* Tablet/mobile: allow the existing menu behaviour to take over cleanly */
+@media (max-width: 980px) {
+    .site-header .nav-wrap {
+        display: flex !important;
+        min-height: 88px !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+    }
     .site-header .brand-main {
         font-size: 1.32rem !important;
         white-space: normal !important;
     }
     .site-header .brand-sub {
-        font-size: .58rem !important;
+        font-size: .56rem !important;
         white-space: normal !important;
     }
 }

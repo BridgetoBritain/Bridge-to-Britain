@@ -1,16 +1,20 @@
-BRIDGE TO ENGLAND — HEADER VISIBILITY FIX V5.51
+BRIDGE TO ENGLAND — CLEAN HEADER FIX V5.52
 
-Fix:
-- Makes “BRIDGE TO ENGLAND” bright white and clearly visible on the navy header.
-- Keeps “YOUR TRUSTED UK PARTNER” in warm gold.
-- Explicitly removes any bridge graphic/background/pseudo-element above the wordmark.
-- Does not change the rest of the website or the SEO work.
+This version fixes the crowded desktop header:
+- smaller, balanced Bridge to England wordmark
+- tagline stays gold and visible
+- no bridge symbol above the name
+- navigation kept on one line on normal desktop widths
+- improved spacing between logo, menu and consultation button
+- smaller consultation button
+- no other website content changed
 
 UPLOAD:
 Replace ONLY index.html in the ROOT of the v2 branch.
 
 Recommended commit:
-Improve Bridge to England header visibility V5.51
+Clean and balance website header V5.52
 
-After GitHub deploys:
-Open https://bridgetoengland.co.uk/ and press Ctrl+F5.
+After deployment:
+Open https://bridgetoengland.co.uk/
+Press Ctrl + F5.
