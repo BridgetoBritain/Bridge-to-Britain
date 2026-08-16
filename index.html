@@ -503,6 +503,38 @@ footer .footer-brand p {
 }
 </style>
 
+
+<style id="meet-ethan-portrait-crop-v565">
+/* V5.65 — keep the exact approved studio portrait; only improve its on-page crop */
+#about .portrait {
+  overflow: hidden !important;
+  aspect-ratio: 4 / 5 !important;
+  background: #2c2d31 !important;
+}
+
+#about .portrait img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: 50% 45% !important;
+}
+
+/* Keep the portrait balanced on smaller screens too */
+@media (max-width: 800px) {
+  #about .portrait {
+    aspect-ratio: 4 / 5 !important;
+    max-width: 520px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #about .portrait img {
+    object-position: 50% 43% !important;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="site-header">
@@ -539,7 +571,7 @@ footer .footer-brand p {
 </section>
 <section class="section" id="about">
 <div class="container about-grid">
-<div class="portrait reveal"><img alt="Ethan Erman Bahadir" src="ethan-erman-bahadir.jpg"/></div>
+<div class="portrait reveal"><img alt="Ethan Erman Bahadir" src="ethan-erman-bahadir-studio.png"/></div>
 <div class="about-copy reveal">
 <div class="eyebrow about-partner-eyebrow" data-en="Meet Ethan" data-tr="Ethan ile Tanışın">Meet Ethan</div><h2>Ethan Erman Bahadir</h2><div class="about-role" data-en="Founder &amp; Managing Director" data-tr="Kurucu &amp; Genel Müdür">Founder &amp; Managing Director</div>
 <p class="about-client-intro" data-en="Bridge to England was founded to offer more than advice. We want to be your trusted UK partner, supporting you on the ground and helping you every step of the way." data-tr="Bridge to England yalnızca danışmanlık sunmak için kurulmadı. Birleşik Krallık’taki güvenilir iş ortağınız olarak sahada yanınızda olmayı ve her adımda destek vermeyi amaçlıyoruz.">Bridge to England was founded to offer more than advice. We want to be your trusted UK partner, supporting you on the ground and helping you every step of the way.</p><p class="about-body-copy" data-en="Based in London since 1995, Ethan combines over 30 years of UK experience with an understanding of both British and Turkish business cultures." data-tr="1995’ten beri Londra’da yaşayan Ethan, 30 yılı aşkın Birleşik Krallık deneyimini hem Britanya hem de Türk iş kültürüne dair anlayışla birleştirir.">Based in London since 1995, Ethan combines over 30 years of UK experience with an understanding of both British and Turkish business cultures.</p><p class="about-body-copy" data-en="With a background in mathematics, commercial building engineering and project coordination, together with experience in property search &amp; investment, he provides independent, practical support, helping you make informed decisions and manage opportunities in the UK with confidence." data-tr="Matematik, ticari bina mühendisliği, proje koordinasyonu ve gayrimenkul arama ve yatırım geçmişiyle, bağımsız ve pratik destek sunar — müşterilerin bilinçli kararlar almasına ve Birleşik Krallık’taki fırsatları güvenle yönetmesine yardımcı olur.">With a background in mathematics, commercial building engineering and project coordination, together with experience in property search &amp; investment, he provides independent, practical support — helping you make informed decisions and manage opportunities in the UK with confidence.</p><p class="about-trusted-close" data-en="From your first conversation through to delivery, you have one trusted UK partner by your side." data-tr="İlk görüşmenizden başarılı teslimata kadar yanınızda güvenilir bir Birleşik Krallık iş ortağınız olur.">From your first conversation through to delivery, you have one trusted UK partner by your side.</p><div class="about-trust-strip" data-en="UK Knowledge • Turkish Understanding • Practical Experience" data-tr="Birleşik Krallık Bilgisi • Türk Kültürünü Anlama • Pratik Deneyim">UK Knowledge • Turkish Understanding • Practical Experience</div></div>
