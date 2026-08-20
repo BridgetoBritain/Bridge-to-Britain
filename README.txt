@@ -1,18 +1,13 @@
-BRIDGE TO ENGLAND — LOGO DISPLAY FIX V5.74
+BRIDGE TO ENGLAND - LOGO POLISH V5.75
 
-WHY THE LOGO IS BROKEN
-The repository contains bridge-to-england-logo.jpg, but the currently deployed HTML is still using an older logo reference.
-That is why the browser shows a broken image box.
+WHAT THIS FIXES
+- Enlarges the Bridge to England header logo by about one third on desktop.
+- Keeps the logo proportionate on tablet and mobile.
+- Removes the dark/black divider line around the header and hero split.
+- Keeps the current Bridge to England logo file and all existing website content.
+- Preserves the working contact form and current service pages.
 
-THIS FIX
-All website pages in this package reference:
-bridge-to-england-logo.jpg
-
-IMPORTANT
-Upload ALL files in this package to the ROOT of the v2 branch.
-Do not upload only the JPG.
-
-UPLOAD / REPLACE:
+UPLOAD ALL OF THESE FILES TO THE ROOT OF THE v2 BRANCH
 1. index.html
 2. business-expansion.html
 3. property-search-investment.html
@@ -24,11 +19,7 @@ UPLOAD / REPLACE:
 9. bridge-to-england-logo.jpg
 
 Recommended commit message:
-Fix Bridge to England logo display V5.74
+Enlarge logo and remove divider line V5.75
 
-After GitHub finishes deploying:
-- Open https://bridgetoengland.co.uk/
-- Press Ctrl + F5 once.
-
-The old bridge-to-britain-logo.jpg and bridge-to-england-skyline-v573.png can remain in the repository.
-They are not required by this fix.
+After deployment:
+Open the website and press Ctrl + F5 once.

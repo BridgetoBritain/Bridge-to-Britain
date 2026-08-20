@@ -602,6 +602,92 @@ footer .footer-brand-sub{
 }
 </style>
 
+
+<style id="logo-polish-v575">
+/* V5.75 - larger Bridge to England logo + cleaner header/hero join */
+
+/* Remove the dark divider/line around the header and hero split */
+.site-header {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+.hero,
+.hero-grid,
+.hero-copy,
+.hero-media,
+.hero-image,
+.hero-image-wrap {
+  border: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Larger, better-balanced desktop logo */
+.site-header .brand,
+.site-header .brand-wordmark {
+  flex: 0 0 170px !important;
+  width: 170px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+}
+
+.site-header .brand img.site-logo-image,
+.site-header .brand-wordmark img.site-logo-image {
+  display: block !important;
+  width: 150px !important;
+  height: auto !important;
+  max-height: 86px !important;
+  object-fit: contain !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+/* Keep the header compact and vertically balanced */
+@media (min-width: 981px) {
+  .site-header .nav-wrap.container {
+    min-height: 108px !important;
+  }
+}
+
+/* Tablet */
+@media (max-width: 980px) {
+  .site-header .brand,
+  .site-header .brand-wordmark {
+    flex: 0 0 105px !important;
+    width: 105px !important;
+    min-width: 105px !important;
+    max-width: 105px !important;
+  }
+
+  .site-header .brand img.site-logo-image,
+  .site-header .brand-wordmark img.site-logo-image {
+    width: 96px !important;
+    max-height: 66px !important;
+  }
+}
+
+/* Small phones */
+@media (max-width: 560px) {
+  .site-header .brand,
+  .site-header .brand-wordmark {
+    flex: 0 0 88px !important;
+    width: 88px !important;
+    min-width: 88px !important;
+    max-width: 88px !important;
+  }
+
+  .site-header .brand img.site-logo-image,
+  .site-header .brand-wordmark img.site-logo-image {
+    width: 82px !important;
+    max-height: 58px !important;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="site-header">
