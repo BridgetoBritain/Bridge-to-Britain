@@ -1225,3 +1225,67 @@ html[lang="tr"] .hero .trusted-partner-main{
     max-width:820px !important;
   }
 }
+
+/* V5.71 — reinstate bridge logo mark beside the Bridge to England wordmark */
+.site-header .brand.brand-wordmark,
+.site-header .brand-wordmark {
+  display:flex !important;
+  flex-direction:row !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  gap:14px !important;
+}
+
+.site-header .brand .bridge-logo-mark,
+.site-header .brand-wordmark .bridge-logo-mark {
+  display:block !important;
+  content:normal !important;
+  flex:0 0 auto !important;
+  width:52px !important;
+  height:40px !important;
+  object-fit:contain !important;
+  opacity:1 !important;
+}
+
+.site-header .brand-text {
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  min-width:0 !important;
+}
+
+@media (max-width:1600px) and (min-width:1101px) {
+  .site-header .brand .bridge-logo-mark,
+  .site-header .brand-wordmark .bridge-logo-mark {
+    width:46px !important;
+    height:36px !important;
+  }
+  .site-header .brand.brand-wordmark,
+  .site-header .brand-wordmark {
+    gap:12px !important;
+  }
+}
+
+@media (max-width:1100px) {
+  .site-header .brand .bridge-logo-mark,
+  .site-header .brand-wordmark .bridge-logo-mark {
+    width:40px !important;
+    height:31px !important;
+  }
+  .site-header .brand.brand-wordmark,
+  .site-header .brand-wordmark {
+    gap:10px !important;
+  }
+}
+
+@media (max-width:560px) {
+  .site-header .brand .bridge-logo-mark,
+  .site-header .brand-wordmark .bridge-logo-mark {
+    width:34px !important;
+    height:27px !important;
+  }
+  .site-header .brand.brand-wordmark,
+  .site-header .brand-wordmark {
+    gap:8px !important;
+  }
+}

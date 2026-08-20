@@ -1,20 +1,29 @@
-BRIDGE TO ENGLAND — CLEAN HEADER FIX V5.52
+BRIDGE TO ENGLAND — BRIDGE LOGO REINSTATED V5.71
 
-This version fixes the crowded desktop header:
-- smaller, balanced Bridge to England wordmark
-- tagline stays gold and visible
-- no bridge symbol above the name
-- navigation kept on one line on normal desktop widths
-- improved spacing between logo, menu and consultation button
-- smaller consultation button
-- no other website content changed
+WHAT CHANGED
+- Reinstated a compact gold bridge mark beside the BRIDGE TO ENGLAND wordmark.
+- The logo appears in the header without changing the existing wording, colours or hero design.
+- The bridge mark scales down on tablet and mobile.
+- The same header branding is applied to all six service pages.
+- The thank-you page is also kept consistent.
+- The V5.69 contact form and V5.70 Turkish hero fix are preserved.
 
-UPLOAD:
-Replace ONLY index.html in the ROOT of the v2 branch.
+UPLOAD THESE FILES TO THE ROOT OF THE v2 BRANCH
+1. index.html
+2. style.css
+3. bridge-logo-mark.svg
+4. business-expansion.html
+5. property-search-investment.html
+6. property-acquisition.html
+7. refurbishment-coordination.html
+8. commercial-building-consultancy.html
+9. local-representation.html
+10. thank-you.html
 
-Recommended commit:
-Clean and balance website header V5.52
+Replace the existing HTML/CSS files. bridge-logo-mark.svg is a new file.
 
-After deployment:
-Open https://bridgetoengland.co.uk/
-Press Ctrl + F5.
+RECOMMENDED COMMIT MESSAGE
+Reinstate Bridge to England bridge logo V5.71
+
+AFTER UPLOADING
+Open the website and press Ctrl + F5 once.
