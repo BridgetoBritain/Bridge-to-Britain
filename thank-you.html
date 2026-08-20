@@ -6,7 +6,7 @@
 <title>Thank You | Bridge to England</title>
 <meta name="robots" content="noindex,follow">
 <link rel="icon" href="favicon.png">
-<link rel="stylesheet" href="style.css?v=571">
+<link rel="stylesheet" href="style.css?v=548">
 <style>
 .site-header{position:static!important}
 .thank-you-page{
@@ -63,18 +63,6 @@
 .simple-brand{
   text-decoration:none;
   display:flex;
-  flex-direction:row;
-  align-items:center;
-  gap:12px;
-}
-.simple-bridge-logo{
-  width:46px;
-  height:35px;
-  object-fit:contain;
-  flex:0 0 auto;
-}
-.simple-brand-text{
-  display:flex;
   flex-direction:column;
 }
 .simple-brand strong{
@@ -100,14 +88,26 @@
   font-weight:700;
 }
 </style>
+
+<style id="thank-you-logo-v571">
+.simple-brand img.thank-you-logo{
+  display:block;
+  width:105px;
+  height:auto;
+  max-height:92px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:4px;
+}
+@media(max-width:700px){
+  .simple-brand img.thank-you-logo{width:78px;max-height:70px}
+}
+</style>
+
 </head>
 <body>
 <header class="simple-header">
-<a class="simple-brand" href="index.html">
-<img class="simple-bridge-logo" src="bridge-logo-mark.svg" alt="" aria-hidden="true">
-<span class="simple-brand-text"><strong>BRIDGE TO ENGLAND</strong>
-<span>YOUR TRUSTED UK PARTNER</span></span>
-</a>
+<a class="simple-brand" href="index.html"><img src="bridge-to-england-logo.jpg" alt="Bridge to England logo" class="thank-you-logo"></a>
 <button class="language-toggle" type="button">TR</button>
 </header>
 

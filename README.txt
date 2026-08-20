@@ -1,29 +1,34 @@
-BRIDGE TO ENGLAND — BRIDGE LOGO REINSTATED V5.71
+BRIDGE TO ENGLAND — LOGO DISPLAY FIX V5.74
 
-WHAT CHANGED
-- Reinstated a compact gold bridge mark beside the BRIDGE TO ENGLAND wordmark.
-- The logo appears in the header without changing the existing wording, colours or hero design.
-- The bridge mark scales down on tablet and mobile.
-- The same header branding is applied to all six service pages.
-- The thank-you page is also kept consistent.
-- The V5.69 contact form and V5.70 Turkish hero fix are preserved.
+WHY THE LOGO IS BROKEN
+The repository contains bridge-to-england-logo.jpg, but the currently deployed HTML is still using an older logo reference.
+That is why the browser shows a broken image box.
 
-UPLOAD THESE FILES TO THE ROOT OF THE v2 BRANCH
+THIS FIX
+All website pages in this package reference:
+bridge-to-england-logo.jpg
+
+IMPORTANT
+Upload ALL files in this package to the ROOT of the v2 branch.
+Do not upload only the JPG.
+
+UPLOAD / REPLACE:
 1. index.html
-2. style.css
-3. bridge-logo-mark.svg
-4. business-expansion.html
-5. property-search-investment.html
-6. property-acquisition.html
-7. refurbishment-coordination.html
-8. commercial-building-consultancy.html
-9. local-representation.html
-10. thank-you.html
+2. business-expansion.html
+3. property-search-investment.html
+4. property-acquisition.html
+5. refurbishment-coordination.html
+6. commercial-building-consultancy.html
+7. local-representation.html
+8. thank-you.html
+9. bridge-to-england-logo.jpg
 
-Replace the existing HTML/CSS files. bridge-logo-mark.svg is a new file.
+Recommended commit message:
+Fix Bridge to England logo display V5.74
 
-RECOMMENDED COMMIT MESSAGE
-Reinstate Bridge to England bridge logo V5.71
+After GitHub finishes deploying:
+- Open https://bridgetoengland.co.uk/
+- Press Ctrl + F5 once.
 
-AFTER UPLOADING
-Open the website and press Ctrl + F5 once.
+The old bridge-to-britain-logo.jpg and bridge-to-england-skyline-v573.png can remain in the repository.
+They are not required by this fix.
