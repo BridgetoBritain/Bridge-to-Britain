@@ -688,6 +688,109 @@ footer .footer-brand-sub{
 }
 </style>
 
+
+<style id="logo-seam-fix-v576">
+/* V5.76 - slightly larger header logo and force-remove the hero seam */
+
+/* Header logo: larger, but still leaves comfortable room for navigation */
+@media (min-width: 1280px) {
+  .site-header .brand,
+  .site-header .brand-wordmark {
+    flex: 0 0 200px !important;
+    width: 200px !important;
+    min-width: 200px !important;
+    max-width: 200px !important;
+  }
+
+  .site-header .brand img.site-logo-image,
+  .site-header .brand-wordmark img.site-logo-image {
+    width: 178px !important;
+    height: auto !important;
+    max-height: 100px !important;
+    object-fit: contain !important;
+    margin: 0 !important;
+  }
+
+  .site-header .nav-wrap.container {
+    min-height: 110px !important;
+  }
+}
+
+/* Medium desktop: keep enough room for the navigation text */
+@media (min-width: 981px) and (max-width: 1279px) {
+  .site-header .brand,
+  .site-header .brand-wordmark {
+    flex: 0 0 170px !important;
+    width: 170px !important;
+    min-width: 170px !important;
+    max-width: 170px !important;
+  }
+
+  .site-header .brand img.site-logo-image,
+  .site-header .brand-wordmark img.site-logo-image {
+    width: 150px !important;
+    max-height: 86px !important;
+  }
+}
+
+/* Remove every possible header line */
+.site-header,
+.site-header .nav-wrap,
+.site-header .container {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+.site-header::before,
+.site-header::after,
+.site-header .nav-wrap::before,
+.site-header .nav-wrap::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Force the hero panels to meet with no black/sub-pixel seam */
+.hero,
+.hero-grid,
+.hero-copy,
+.hero-photo {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.hero-grid {
+  gap: 0 !important;
+  column-gap: 0 !important;
+  background: #071b31 !important;
+  overflow: hidden !important;
+}
+
+.hero-copy {
+  position: relative !important;
+  z-index: 1 !important;
+  margin-right: -1px !important;
+}
+
+/* Overlap the image very slightly over the join.
+   This removes the thin dark line caused by browser sub-pixel rendering. */
+.hero-photo {
+  position: relative !important;
+  z-index: 2 !important;
+  overflow: hidden !important;
+  margin-left: -3px !important;
+  width: calc(100% + 3px) !important;
+}
+
+.hero-photo img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+  outline: 0 !important;
+  margin: 0 !important;
+}
+</style>
+
 </head>
 <body>
 <header class="site-header">
